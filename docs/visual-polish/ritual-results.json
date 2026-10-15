@@ -1,0 +1,14 @@
+{
+  "light": "item emissive curve; no world relight",
+  "infusionNetworkTiming": "PASS",
+  "singleInfusionAmbientLoop": "PASS",
+  "physicalInfusionAndCompletion": "PASS",
+  "distinctReverseExtractionFlow": "PASS",
+  "physicalExtractionBookAndCompletion": "PASS",
+  "ambientCancellationCleanup": "PASS",
+  "cancellationEffectCleanup": "PASS",
+  "catalystItemModel": "PASS",
+  "status": "PASS",
+  "phase": 16,
+  "ticks": 695
+}

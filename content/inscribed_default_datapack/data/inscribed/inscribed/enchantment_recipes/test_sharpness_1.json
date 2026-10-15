@@ -1,0 +1,35 @@
+{
+  "enchantment": "minecraft:sharpness",
+  "level": 1,
+  "minimum_bookshelf_power": 2,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "duration_ticks": 100,
+    "book_consumption_chance": 0.1
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:flint"
+      }
+    ],
+    "duration_ticks": 80,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_1_BASIC"
+}

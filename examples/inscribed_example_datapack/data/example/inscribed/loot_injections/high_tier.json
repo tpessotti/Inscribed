@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "loot_tables": [
+    "minecraft:chests/ancient_city",
+    "minecraft:chests/stronghold_library"
+  ],
+  "chance": 0.3,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "require_recipe": true,
+  "theme": "TREASURE",
+  "structure_tier": 4,
+  "treasure": true,
+  "entries": [
+    {
+      "enchantment": "minecraft:mending",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:vanishing_curse",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 2
+    },
+    {
+      "item": "inscribed:enchantment_catalyst",
+      "weight": 4
+    }
+  ]
+}

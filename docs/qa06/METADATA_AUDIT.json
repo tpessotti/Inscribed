@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "metadata": {
+    "modLoader": "javafml",
+    "loaderVersion": "[4,)",
+    "license": "MIT",
+    "mods": [
+      {
+        "modId": "inscribed",
+        "version": "0.7.0",
+        "displayName": "Inscribed",
+        "logoFile": "assets/inscribed/textures/item/guide_book_placeholder_v2.png",
+        "authors": "Inscribed contributors",
+        "description": "Physical enchantment knowledge, libraries, reagents and server-authoritative altar rituals."
+      }
+    ],
+    "mixins": [
+      {
+        "config": "inscribed.mixins.json"
+      }
+    ],
+    "dependencies": {
+      "inscribed": [
+        {
+          "modId": "neoforge",
+          "type": "required",
+          "versionRange": "[21.1.255,)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "minecraft",
+          "type": "required",
+          "versionRange": "[1.21.1]",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "jei",
+          "type": "optional",
+          "versionRange": "[19.57.0,)",
+          "ordering": "AFTER",
+          "side": "CLIENT"
+        },
+        {
+          "modId": "lsbc",
+          "type": "optional",
+          "versionRange": "[0.21.0,)",
+          "ordering": "AFTER",
+          "side": "BOTH"
+        },
+        {
+          "modId": "create",
+          "type": "optional",
+          "versionRange": "[6.0.10,)",
+          "ordering": "AFTER",
+          "side": "BOTH"
+        }
+      ]
+    }
+  },
+  "translationKeysEn": 89,
+  "translationKeysPt": 89,
+  "runData": "not configured",
+  "configKeysRemoved": [],
+  "configKeysRenamed": [],
+  "installedConfigsPreserved": true,
+  "lsbcJarPreserved": true
+}

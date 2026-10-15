@@ -1,0 +1,313 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 0
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\client",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "CombinedGameTestServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 1
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\combinedGameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\combinedGameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\combinedGameTest",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "CreateGameTestServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 2
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\createGameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\createGameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\createGameTest",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 3
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\gameTest",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "QaGameTestServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 4
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\qaGameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\qaGameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\qa06\\A",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "QaMultiplayerClient",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 5
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\qaMultiplayerClientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\qaMultiplayerClientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\qaMultiplayer\\clientA",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "QaMultiplayerServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 6
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\qaMultiplayerServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\qaMultiplayerServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\qaMultiplayer\\server",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "ReleaseClient",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 7
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseClientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseClientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed_qa%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\releaseQa"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\rc08\\A-client",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "ReleaseGameTestServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 8
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseGameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseGameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed_qa%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\releaseQa"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\rc08\\A-server",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "ReleaseMultiplayerClient",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 9
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseMultiplayerClientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseMultiplayerClientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed_qa%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\releaseQa"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\rc08\\multiplayer\\clientA",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "ReleaseMultiplayerServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 10
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseMultiplayerServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseMultiplayerServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed_qa%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\releaseQa"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\rc08\\multiplayer\\server",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "ReleaseServer",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 11
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\releaseServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003d"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\rc08\\clean-server",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 12
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\server",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "ValidationClient",
+      "presentation": {
+        "group": "Mod Development - inscribed",
+        "order": 13
+      },
+      "projectName": "inscribed",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\validationClientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\build\\moddev\\validationClientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dinscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\main;inscribed%%C:\\Users\\tpess\\curseforge\\minecraft\\Instances\\Rogue Tides\\CODEX LSBC\\INSCRIBED\\github\\Inscribed\\bin\\gameTest"
+      ],
+      "cwd": "${workspaceFolder}\\runs\\validationClient",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "enchantment": "minecraft:looting",
+  "level": 2,
+  "exact_book_level": true,
+  "minimum_bookshelf_power": 2,
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 12,
+    "book_consumption_chance": 0
+  }
+}

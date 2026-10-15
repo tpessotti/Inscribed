@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "theme": "ARCANE",
+  "structure_tier": 3,
+  "treasure": false,
+  "require_recipe": false,
+  "loot_tables": [
+    "minecraft:chests/stronghold_library",
+    "minecraft:chests/stronghold_corridor",
+    "minecraft:chests/stronghold_crossing",
+    "minecraft:chests/woodland_mansion",
+    "minecraft:chests/trial_chambers/reward",
+    "minecraft:chests/trial_chambers/reward_rare",
+    "minecraft:chests/trial_chambers/reward_unique"
+  ],
+  "chance": 0.14,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "item": "inscribed:enchantment_catalyst",
+      "weight": 19,
+      "min_count": 1,
+      "max_count": 1
+    }
+  ]
+}

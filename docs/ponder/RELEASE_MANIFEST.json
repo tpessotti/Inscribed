@@ -1,0 +1,20 @@
+{
+  "version": "0.7.1",
+  "license": "MIT",
+  "jarSha256": "d53a3ce52ca29153512d5efb6ebe18bd353242b4a1c10b0e03271ce00203bcbc",
+  "jarBytes": 1021688,
+  "create": "6.0.10",
+  "ponder": "1.0.82+mc1.21.1",
+  "optional": true,
+  "clientOnly": true,
+  "nativeLanguages": [
+    "en_us",
+    "pt_br"
+  ],
+  "unitTests": 4,
+  "dedicatedTestsWithoutOptional": 100,
+  "dedicatedTestsWithOptional": 100,
+  "userConfigsPreserved": true,
+  "lsbcPreserved": "0.22.1",
+  "published": false
+}

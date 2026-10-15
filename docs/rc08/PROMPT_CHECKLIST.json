@@ -1,0 +1,406 @@
+[
+  {
+    "id": "1",
+    "title": "Princípio desta etapa"
+  },
+  {
+    "id": "2",
+    "title": "Objetivo geral"
+  },
+  {
+    "id": "3",
+    "title": "Release state"
+  },
+  {
+    "id": "4",
+    "title": "Version freeze"
+  },
+  {
+    "id": "5",
+    "title": "Build metadata"
+  },
+  {
+    "id": "6",
+    "title": "Dependency audit"
+  },
+  {
+    "id": "7",
+    "title": "Core feature freeze checklist"
+  },
+  {
+    "id": "8",
+    "title": "Vanilla enchanting bypass"
+  },
+  {
+    "id": "9",
+    "title": "Grindstone"
+  },
+  {
+    "id": "10",
+    "title": "Recipe pack final audit"
+  },
+  {
+    "id": "10A",
+    "title": "Datapack final obrigatório — Vanilla + Create"
+  },
+  {
+    "id": "11",
+    "title": "Recipe coverage"
+  },
+  {
+    "id": "12",
+    "title": "Loot final audit"
+  },
+  {
+    "id": "13",
+    "title": "Catalyst final check"
+  },
+  {
+    "id": "14",
+    "title": "Pedestal final check"
+  },
+  {
+    "id": "15",
+    "title": "Ritual audiovisual final check"
+  },
+  {
+    "id": "16",
+    "title": "Navigator’s Codex final compatibility"
+  },
+  {
+    "id": "17",
+    "title": "Inscribed Guide final check"
+  },
+  {
+    "id": "18",
+    "title": "Placeholder assets"
+  },
+  {
+    "id": "19",
+    "title": "JEI final check"
+  },
+  {
+    "id": "20",
+    "title": "JEI recipe visibility"
+  },
+  {
+    "id": "21",
+    "title": "LSBC final check"
+  },
+  {
+    "id": "22",
+    "title": "Create final check"
+  },
+  {
+    "id": "23",
+    "title": "Dedicated server release test"
+  },
+  {
+    "id": "24",
+    "title": "Multiplayer release test"
+  },
+  {
+    "id": "25",
+    "title": "Save/load final test"
+  },
+  {
+    "id": "26",
+    "title": "Upgrade test"
+  },
+  {
+    "id": "27",
+    "title": "Fresh install test"
+  },
+  {
+    "id": "28",
+    "title": "Datapack test"
+  },
+  {
+    "id": "29",
+    "title": "Invalid datapack test"
+  },
+  {
+    "id": "30",
+    "title": "Localization final pass"
+  },
+  {
+    "id": "31",
+    "title": "UI text overflow"
+  },
+  {
+    "id": "32",
+    "title": "Logging final pass"
+  },
+  {
+    "id": "33",
+    "title": "Debug code audit"
+  },
+  {
+    "id": "34",
+    "title": "Dead code"
+  },
+  {
+    "id": "35",
+    "title": "Resource audit"
+  },
+  {
+    "id": "36",
+    "title": "Sound audit"
+  },
+  {
+    "id": "37",
+    "title": "Datagen audit"
+  },
+  {
+    "id": "38",
+    "title": "Config audit"
+  },
+  {
+    "id": "39",
+    "title": "Server config synchronization"
+  },
+  {
+    "id": "40",
+    "title": "Optional integration toggles"
+  },
+  {
+    "id": "41",
+    "title": "Performance release pass"
+  },
+  {
+    "id": "42",
+    "title": "Multiple altar stress test"
+  },
+  {
+    "id": "43",
+    "title": "Security final pass"
+  },
+  {
+    "id": "44",
+    "title": "Automation interaction"
+  },
+  {
+    "id": "45",
+    "title": "Creative mode"
+  },
+  {
+    "id": "46",
+    "title": "Spectator/adventure"
+  },
+  {
+    "id": "47",
+    "title": "Commands"
+  },
+  {
+    "id": "48",
+    "title": "Public API audit"
+  },
+  {
+    "id": "49",
+    "title": "Events"
+  },
+  {
+    "id": "50",
+    "title": "README final"
+  },
+  {
+    "id": "51",
+    "title": "CurseForge description"
+  },
+  {
+    "id": "52",
+    "title": "Modrinth description"
+  },
+  {
+    "id": "53",
+    "title": "Changelog"
+  },
+  {
+    "id": "54",
+    "title": "Release notes"
+  },
+  {
+    "id": "55",
+    "title": "Known limitations"
+  },
+  {
+    "id": "56",
+    "title": "Future backlog"
+  },
+  {
+    "id": "57",
+    "title": "Credits"
+  },
+  {
+    "id": "58",
+    "title": "License"
+  },
+  {
+    "id": "59",
+    "title": "Metadata final"
+  },
+  {
+    "id": "60",
+    "title": "Icon/logo"
+  },
+  {
+    "id": "61",
+    "title": "Build output naming"
+  },
+  {
+    "id": "62",
+    "title": "Sources/dev artifacts"
+  },
+  {
+    "id": "63",
+    "title": "Clean build"
+  },
+  {
+    "id": "64",
+    "title": "SHA/checksum"
+  },
+  {
+    "id": "65",
+    "title": "Dependency licenses"
+  },
+  {
+    "id": "66",
+    "title": "Release matrix"
+  },
+  {
+    "id": "66A",
+    "title": "Recipe datapack release gate"
+  },
+  {
+    "id": "67",
+    "title": "Bug gate"
+  },
+  {
+    "id": "68",
+    "title": "RC iteration"
+  },
+  {
+    "id": "69",
+    "title": "Release checklist final"
+  },
+  {
+    "id": "70",
+    "title": "Release candidate output"
+  },
+  {
+    "id": "71",
+    "title": "Manual smoke test"
+  },
+  {
+    "id": "72",
+    "title": "Smoke test with LSBC"
+  },
+  {
+    "id": "73",
+    "title": "Smoke test with Create"
+  },
+  {
+    "id": "74",
+    "title": "Smoke test loot"
+  },
+  {
+    "id": "75",
+    "title": "Documentation link validation"
+  },
+  {
+    "id": "76",
+    "title": "No superseded docs in root"
+  },
+  {
+    "id": "77",
+    "title": "Code formatting"
+  },
+  {
+    "id": "78",
+    "title": "Git diff review"
+  },
+  {
+    "id": "79",
+    "title": "No local machine paths"
+  },
+  {
+    "id": "80",
+    "title": "No temporary assets"
+  },
+  {
+    "id": "81",
+    "title": "Test data separation"
+  },
+  {
+    "id": "82",
+    "title": "Dev commands"
+  },
+  {
+    "id": "83",
+    "title": "Release artifact validation"
+  },
+  {
+    "id": "84",
+    "title": "Startup log review"
+  },
+  {
+    "id": "85",
+    "title": "Crash test recovery"
+  },
+  {
+    "id": "86",
+    "title": "Save backup note"
+  },
+  {
+    "id": "87",
+    "title": "Compatibility statement"
+  },
+  {
+    "id": "88",
+    "title": "Player-facing feature freeze"
+  },
+  {
+    "id": "89",
+    "title": "v0.1.0 definition"
+  },
+  {
+    "id": "90",
+    "title": "O que NÃO entra no 0.1.0"
+  },
+  {
+    "id": "91",
+    "title": "Final quality bar"
+  },
+  {
+    "id": "92",
+    "title": "Release blocker criteria"
+  },
+  {
+    "id": "93",
+    "title": "High severity criteria"
+  },
+  {
+    "id": "94",
+    "title": "Medium/Low"
+  },
+  {
+    "id": "95",
+    "title": "Final deliverables"
+  },
+  {
+    "id": "96",
+    "title": "Release artifact"
+  },
+  {
+    "id": "97",
+    "title": "Do not publish automatically"
+  },
+  {
+    "id": "98",
+    "title": "Critério de aprovação"
+  },
+  {
+    "id": "99",
+    "title": "Saída final obrigatória"
+  }
+]

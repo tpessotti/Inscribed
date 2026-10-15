@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "theme": "EXPLORATION",
+  "structure_tier": 2,
+  "treasure": false,
+  "require_recipe": false,
+  "loot_tables": [
+    "minecraft:chests/shipwreck_treasure",
+    "minecraft:chests/buried_treasure",
+    "minecraft:chests/abandoned_mineshaft",
+    "minecraft:chests/simple_dungeon",
+    "minecraft:chests/pillager_outpost",
+    "minecraft:chests/jungle_temple",
+    "minecraft:chests/desert_pyramid"
+  ],
+  "chance": 0.07,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "item": "inscribed:enchantment_catalyst",
+      "weight": 19,
+      "min_count": 1,
+      "max_count": 1
+    }
+  ]
+}

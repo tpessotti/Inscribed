@@ -1,0 +1,30 @@
+{
+  "version": "0.7.0",
+  "license": "MIT",
+  "published": false,
+  "installedJar": "mods/inscribed-0.7.0.jar",
+  "jar": {
+    "file": "inscribed-0.7.0.jar",
+    "sha256": "089be5df10b839ce1c59320642673107f6691565cee457a0f6d751580962505f",
+    "bytes": 1012500
+  },
+  "authoringArchive": {
+    "file": "inscribed-0.7.0-authoring.zip",
+    "sha256": "f852d6ce899853e68cf35229bac2db83567f81c0f50add506c6fcaf4128fef14",
+    "bytes": 368565,
+    "files": 50
+  },
+  "junitPassed": 4,
+  "gameTestsPerMatrixCase": 100,
+  "matrixCases": 7,
+  "nativeClients": "all PASS plus Portuguese",
+  "realMultiplayerPlayers": 2,
+  "authoringTests": {
+    "withoutCreate": 3,
+    "withCreate": 3
+  },
+  "schemaValidatedFiles": 155,
+  "openBlockerHigh": [],
+  "userConfigsPreserved": true,
+  "lsbcVersionPreserved": "0.22.1"
+}

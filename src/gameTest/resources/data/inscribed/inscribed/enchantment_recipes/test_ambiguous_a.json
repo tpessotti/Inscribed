@@ -1,0 +1,15 @@
+{
+  "enchantment": "minecraft:fire_aspect",
+  "level": 1,
+  "minimum_bookshelf_power": 0,
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 12,
+    "book_consumption_chance": 0
+  }
+}

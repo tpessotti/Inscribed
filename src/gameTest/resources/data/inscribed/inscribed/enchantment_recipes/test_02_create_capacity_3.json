@@ -1,0 +1,47 @@
+{
+  "enchantment": "create:capacity",
+  "level": 3,
+  "minimum_bookshelf_power": 10,
+  "recipe_visibility": "ALWAYS",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "create:copper_sheet",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 180,
+    "empty_books_required": 1,
+    "failure_chance": 0
+  }
+}

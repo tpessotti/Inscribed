@@ -1,0 +1,127 @@
+{
+  "enabled": true,
+  "theme": "OCEAN",
+  "structure_tier": 2,
+  "treasure": false,
+  "require_recipe": true,
+  "loot_tables": [
+    "minecraft:chests/shipwreck_supply",
+    "minecraft:chests/shipwreck_treasure",
+    "minecraft:chests/buried_treasure",
+    "minecraft:chests/underwater_ruin_small",
+    "minecraft:chests/underwater_ruin_big"
+  ],
+  "chance": 0.14,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "enchantment": "minecraft:aqua_affinity",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:channeling",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:depth_strider",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:depth_strider",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:impaling",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:impaling",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:loyalty",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:loyalty",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:luck_of_the_sea",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:luck_of_the_sea",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:lure",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:lure",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:respiration",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:respiration",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:riptide",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:riptide",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:unbreaking",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:unbreaking",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    }
+  ]
+}

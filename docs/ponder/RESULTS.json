@@ -1,0 +1,25 @@
+{
+  "version": "0.7.1",
+  "nativeEnglish": {
+    "tableAndPedestalRegistered": "PASS",
+    "captionsMatchStoryboard": "PASS",
+    "physicalSetupAndInfusionOutput": "PASS",
+    "replayRestoresScene": "PASS",
+    "language": "en_us",
+    "durationTicks": 725,
+    "status": "PASS"
+  },
+  "nativePortuguese": {
+    "tableAndPedestalRegistered": "PASS",
+    "physicalSetupAndInfusionOutput": "PASS",
+    "replayRestoresScene": "PASS",
+    "language": "pt_br",
+    "durationTicks": 725,
+    "status": "PASS"
+  },
+  "nativeClientWithoutCreatePonder": "PASS",
+  "dedicatedWithoutOptionalMods": 100,
+  "dedicatedWithCreateLsbcJei": 100,
+  "unitTests": 4,
+  "recipeLootDefaultsUnchanged": true
+}

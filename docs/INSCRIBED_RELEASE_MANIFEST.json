@@ -1,0 +1,186 @@
+{
+  "release": "Inscribed 0.5.0 — stages 04 and 05",
+  "date": "2026-10-13",
+  "jar": {
+    "path": "CODEX LSBC/prototypes/inscribed/build/libs/inscribed-0.5.0.jar",
+    "bytes": 394733,
+    "sha256": "abe407606187719db9d433fa80276afca657540a6314361017b8dd92a318efb2",
+    "installed": true
+  },
+  "tests": {
+    "junit": 4,
+    "gameTestsPerRuntime": [
+      88,
+      88
+    ],
+    "nativeMatrix": {
+      "A": {
+        "lsbc": false,
+        "jei": false,
+        "savedKnowledgeAfterRemovingLSBC": "PASS",
+        "unknownCatalogAndBookshelfNoLearning": "PASS",
+        "guideItemRightClick": "PASS",
+        "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+        "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+        "bidirectionalEnchantmentRecipeNavigation": "PASS",
+        "reloadRemovesRecipesAndRefreshesJei": "PASS",
+        "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+        "guideCatalystAndUnitConstraints": "PASS",
+        "status": "PASS"
+      },
+      "B": {
+        "lsbc": false,
+        "jei": true,
+        "savedKnowledgeAfterRemovingLSBC": "PASS",
+        "unknownCatalogAndBookshelfNoLearning": "PASS",
+        "guideItemRightClick": "PASS",
+        "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+        "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+        "bidirectionalEnchantmentRecipeNavigation": "PASS",
+        "jeiCategoriesAndPublicApiPerPlayerVisibility": "PASS",
+        "jeiCatalystAndUnitConstraints": "PASS",
+        "reloadRemovesRecipesAndRefreshesJei": "PASS",
+        "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+        "guideCatalystAndUnitConstraints": "PASS",
+        "status": "PASS"
+      },
+      "C": {
+        "lsbc": true,
+        "jei": false,
+        "unknownCatalogAndBookshelfNoLearning": "PASS",
+        "guideItemRightClick": "PASS",
+        "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+        "partialKnownWordsIdentitySearchAndIndependentKnowledge": "PASS",
+        "guideSearchDoesNotMatchUnknownWords": "PASS",
+        "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+        "bidirectionalEnchantmentRecipeNavigation": "PASS",
+        "codexFifthTabAndSharedGuide": "PASS",
+        "reloadRemovesRecipesAndRefreshesJei": "PASS",
+        "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+        "guideCatalystAndUnitConstraints": "PASS",
+        "status": "PASS"
+      },
+      "D": {
+        "lsbc": true,
+        "jei": true,
+        "unknownCatalogAndBookshelfNoLearning": "PASS",
+        "guideItemRightClick": "PASS",
+        "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+        "partialKnownWordsIdentitySearchAndIndependentKnowledge": "PASS",
+        "guideSearchDoesNotMatchUnknownWords": "PASS",
+        "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+        "bidirectionalEnchantmentRecipeNavigation": "PASS",
+        "codexFifthTabAndSharedGuide": "PASS",
+        "jeiCategoriesAndPublicApiPerPlayerVisibility": "PASS",
+        "jeiCatalystAndUnitConstraints": "PASS",
+        "reloadRemovesRecipesAndRefreshesJei": "PASS",
+        "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+        "guideCatalystAndUnitConstraints": "PASS",
+        "status": "PASS"
+      }
+    },
+    "nativeRituals": {
+      "light": "item emissive curve; no world relight",
+      "infusionNetworkTiming": "PASS",
+      "physicalInfusionAndCompletion": "PASS",
+      "distinctReverseExtractionFlow": "PASS",
+      "physicalExtractionBookAndCompletion": "PASS",
+      "cancellationEffectCleanup": "PASS",
+      "catalystItemModel": "PASS",
+      "status": "PASS",
+      "phase": 16,
+      "ticks": 689
+    }
+  },
+  "catalog": {
+    "recipes": 131,
+    "pools": 13,
+    "verifiedLootTables": 24,
+    "tiers": {
+      "TIER_2_INTERMEDIATE": 47,
+      "TIER_3_ADVANCED": 45,
+      "TIER_1_BASIC": 21,
+      "TIER_5_LATE_GAME": 6,
+      "TIER_4_TREASURE": 12
+    },
+    "warnings": [],
+    "extractionFailurePreserved": true
+  },
+  "compatibility": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.255",
+    "lsbc": "0.21.0 optional",
+    "jei": "19.57.0.451 optional",
+    "create": "6.0.10 optional"
+  },
+  "protected": {
+    "checked": 661,
+    "unclassifiedChanges": [],
+    "externalConfigObservations": [
+      {
+        "path": "config/awesomedungeonocean_1.properties",
+        "baselineSha256": "d196e533bc29b49dc30659e712c173dbe17739e90a4dcf71faa90f59fb591f46",
+        "observedSha256": "96791fa6bb10604c1bfe8c184c15606f36c4f34a62623a75acb8e2adde2acfbc",
+        "lastWriteTimeLocal": "2026-10-13T18:59:54.793135",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      },
+      {
+        "path": "config/libraryferret_1.properties",
+        "baselineSha256": "fe0a90616156f83f6e4e24799fb9129381805e53b7a2a2aceaf0d286bbc2b8f8",
+        "observedSha256": "cfff359c8b0042ec9dfc93ee9a9cef9ee1865d7303dedae0fa9b91889770590a",
+        "lastWriteTimeLocal": "2026-10-13T18:59:54.503750",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      },
+      {
+        "path": "config/lithostitched.json",
+        "baselineSha256": "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df",
+        "observedSha256": "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6",
+        "lastWriteTimeLocal": "2026-10-13T18:59:54.373702",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      },
+      {
+        "path": "config/submarine_hull.json",
+        "baselineSha256": "94e81e61348b120acb1ecc8ec8a3e33a5d4f37548094ab1925eb35a6985de836",
+        "observedSha256": "a23ea53812fc304244f3df3e7bdb87c194ece6560947ff5c9937c10d38e7b740",
+        "lastWriteTimeLocal": "2026-10-13T19:00:03.076045",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      },
+      {
+        "path": "config/fabric/indigo-renderer.properties",
+        "baselineSha256": "defc1d3ab484b2261d5c30f44df0b3d304572e2e90744781178af0bc2498520c",
+        "observedSha256": "6eb563f46b45b1e1e19e654b1e791a762ee3a722de8eae5e5432ed2f5408834d",
+        "lastWriteTimeLocal": "2026-10-13T18:59:54.546957",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      },
+      {
+        "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+        "baselineSha256": "2227cfd7b0305c9f346bdfbefcdf9d5c71eec829c7ebeb676183eac7328fd5e8",
+        "observedSha256": "a8b6688beef9f2c2dd5ea69981578fca0ef6166d514645052ec84332cc66e1df",
+        "lastWriteTimeLocal": "2026-10-13T19:01:47.442183",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      },
+      {
+        "path": "config/jei/client/recipe-category-sort-order.ini",
+        "baselineSha256": "4dd820a25257d5960bf35d83f528a73c83ff6865beae8a3c314e1a1b18bee8ec",
+        "observedSha256": "1523268d883b29aaea406bea8ed2cadf30bc41edf3c4a16ce4cb9355b9deebbe",
+        "lastWriteTimeLocal": "2026-10-13T16:57:26.582263",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      },
+      {
+        "path": "config/jei/world/local/New World (1)/lookupHistory.json",
+        "baselineSha256": "1347b21946379823140ec1e0eae081fa3310eabf3ab572167c7e4cfda28432bd",
+        "observedSha256": "278a3a61cb5f06d9168806ca0490000d74ead540708b90e5d77bb7b497976f02",
+        "lastWriteTimeLocal": "2026-10-13T17:15:29.133072",
+        "classification": "External configuration/runtime change observed while the user ran the main instance; file preserved, never written by this task. Exact earlier semantic content is not claimed."
+      }
+    ],
+    "foreignJarChanges": []
+  },
+  "limitations": [
+    "No survival-duration balance playthrough or full structure worldgen benchmark",
+    "No two remote clients",
+    "JEI global ingredient book search is not filtered",
+    "Item emissive light does not illuminate surroundings",
+    "Vanilla loot/trades preserved; injection is supplemental"
+  ]
+}

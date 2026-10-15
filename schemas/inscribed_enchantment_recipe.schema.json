@@ -1,0 +1,285 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:inscribed:schema:enchantment-recipe-v1",
+  "title": "Inscribed enchantment recipe v1",
+  "type": "object",
+  "properties": {
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "enchantment": {
+      "type": "string",
+      "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "minimum_bookshelf_power": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000000
+    },
+    "recipe_visibility": {
+      "enum": [
+        "ALWAYS",
+        "ON_ENCHANTMENT_DISCOVERY",
+        "EXPLICIT_DISCOVERY"
+      ],
+      "default": "ALWAYS"
+    },
+    "exact_book_level": {
+      "type": "boolean",
+      "default": false
+    },
+    "progression_tier": {
+      "enum": [
+        "UNCLASSIFIED",
+        "TIER_1_BASIC",
+        "TIER_2_INTERMEDIATE",
+        "TIER_3_ADVANCED",
+        "TIER_4_TREASURE",
+        "TIER_5_LATE_GAME"
+      ],
+      "default": "UNCLASSIFIED"
+    },
+    "infusion": {
+      "type": "object",
+      "required": [
+        "ingredients",
+        "duration_ticks",
+        "book_consumption_chance"
+      ],
+      "properties": {
+        "ingredients": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "properties": {
+              "item": {
+                "type": "string",
+                "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+              },
+              "tag": {
+                "type": "string",
+                "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+              },
+              "type": {
+                "type": "string",
+                "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 8
+              }
+            },
+            "oneOf": [
+              {
+                "required": [
+                  "item"
+                ],
+                "not": {
+                  "anyOf": [
+                    {
+                      "required": [
+                        "tag"
+                      ]
+                    },
+                    {
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "tag"
+                ],
+                "not": {
+                  "anyOf": [
+                    {
+                      "required": [
+                        "item"
+                      ]
+                    },
+                    {
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "type"
+                ]
+              }
+            ],
+            "additionalProperties": true,
+            "description": "One physical pedestal per expanded count. Prefer repeating entries; count is a legacy alias."
+          },
+          "description": "Expanded count sum must also be <=8 (runtime validation)."
+        },
+        "duration_ticks": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 72000
+        },
+        "book_consumption_chance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "extraction": {
+      "type": "object",
+      "required": [
+        "ingredients",
+        "duration_ticks",
+        "empty_books_required"
+      ],
+      "properties": {
+        "ingredients": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "properties": {
+              "item": {
+                "type": "string",
+                "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+              },
+              "tag": {
+                "type": "string",
+                "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+              },
+              "type": {
+                "type": "string",
+                "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 8
+              }
+            },
+            "oneOf": [
+              {
+                "required": [
+                  "item"
+                ],
+                "not": {
+                  "anyOf": [
+                    {
+                      "required": [
+                        "tag"
+                      ]
+                    },
+                    {
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "tag"
+                ],
+                "not": {
+                  "anyOf": [
+                    {
+                      "required": [
+                        "item"
+                      ]
+                    },
+                    {
+                      "required": [
+                        "type"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "required": [
+                  "type"
+                ]
+              }
+            ],
+            "additionalProperties": true,
+            "description": "One physical pedestal per expanded count. Prefer repeating entries; count is a legacy alias."
+          },
+          "description": "Expanded count sum must also be <=8 (runtime validation)."
+        },
+        "duration_ticks": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 72000
+        },
+        "empty_books_required": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 64
+        },
+        "failure_chance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "neoforge:conditions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "enabled": {
+            "const": false
+          }
+        },
+        "required": [
+          "enabled"
+        ]
+      },
+      "then": {},
+      "else": {
+        "required": [
+          "enchantment",
+          "level",
+          "minimum_bookshelf_power"
+        ],
+        "anyOf": [
+          {
+            "required": [
+              "infusion"
+            ]
+          },
+          {
+            "required": [
+              "extraction"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "additionalProperties": false
+}

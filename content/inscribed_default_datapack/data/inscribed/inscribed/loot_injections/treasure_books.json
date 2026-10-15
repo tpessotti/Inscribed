@@ -1,0 +1,89 @@
+{
+  "enabled": true,
+  "theme": "TREASURE",
+  "structure_tier": 4,
+  "treasure": true,
+  "require_recipe": true,
+  "loot_tables": [
+    "minecraft:chests/ancient_city",
+    "minecraft:chests/end_city_treasure",
+    "minecraft:chests/bastion_treasure"
+  ],
+  "chance": 0.18,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "enchantment": "minecraft:frost_walker",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:frost_walker",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:mending",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 4
+    },
+    {
+      "enchantment": "minecraft:silk_touch",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:soul_speed",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:soul_speed",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:soul_speed",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:swift_sneak",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:swift_sneak",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:swift_sneak",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:wind_burst",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:wind_burst",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 5
+    }
+  ]
+}

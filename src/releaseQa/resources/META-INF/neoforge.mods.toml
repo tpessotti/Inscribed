@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="inscribed_qa"
+version="1"
+displayName="Inscribed Release QA (development only)"
+[[dependencies.inscribed_qa]]
+modId="inscribed"
+type="required"
+versionRange="[0.7.2]"
+ordering="AFTER"
+side="BOTH"

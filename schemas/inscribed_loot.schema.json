@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:inscribed:schema:loot-v1",
+  "title": "Inscribed loot injection pool v1",
+  "type": "object",
+  "properties": {
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "loot_tables": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 64,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+      }
+    },
+    "chance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "min_rolls": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 8
+    },
+    "max_rolls": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 8
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "required": [
+          "weight"
+        ],
+        "properties": {
+          "item": {
+            "type": "string",
+            "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+          },
+          "enchantment": {
+            "type": "string",
+            "pattern": "^[a-z0-9_.-]+:[a-z0-9_./-]+$"
+          },
+          "min_level": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "max_level": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "weight": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000000
+          },
+          "min_count": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4,
+            "default": 1
+          },
+          "max_count": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "required_mod": {
+            "type": "string",
+            "pattern": "^[a-z0-9_.-]+$"
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "item"
+            ]
+          },
+          {
+            "required": [
+              "enchantment",
+              "min_level",
+              "max_level"
+            ]
+          }
+        ],
+        "allOf": [
+          {
+            "if": {
+              "required": [
+                "enchantment"
+              ]
+            },
+            "then": {
+              "required": [
+                "min_level",
+                "max_level"
+              ],
+              "properties": {
+                "item": {
+                  "const": "minecraft:enchanted_book"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "item": {
+                  "const": "minecraft:enchanted_book"
+                }
+              },
+              "required": [
+                "item"
+              ]
+            },
+            "then": {
+              "required": [
+                "enchantment",
+                "min_level",
+                "max_level"
+              ]
+            }
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "require_recipe": {
+      "type": "boolean",
+      "default": false
+    },
+    "theme": {
+      "type": "string",
+      "maxLength": 64,
+      "default": "UNSPECIFIED"
+    },
+    "structure_tier": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 5
+    },
+    "treasure": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "enabled": {
+            "const": false
+          }
+        },
+        "required": [
+          "enabled"
+        ]
+      },
+      "then": {},
+      "else": {
+        "required": [
+          "loot_tables",
+          "chance",
+          "min_rolls",
+          "max_rolls",
+          "entries"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": false
+}

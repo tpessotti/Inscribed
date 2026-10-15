@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "loot_tables": [
+    "minecraft:chests/shipwreck_treasure"
+  ],
+  "chance": 0.25,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "require_recipe": true,
+  "theme": "OCEAN",
+  "structure_tier": 2,
+  "treasure": false,
+  "entries": [
+    {
+      "enchantment": "minecraft:respiration",
+      "min_level": 1,
+      "max_level": 2,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:aqua_affinity",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 6
+    },
+    {
+      "item": "inscribed:enchantment_catalyst",
+      "weight": 1,
+      "min_count": 1,
+      "max_count": 1
+    }
+  ]
+}

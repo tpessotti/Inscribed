@@ -1,0 +1,70 @@
+{
+  "enabled": true,
+  "theme": "UNDERGROUND",
+  "structure_tier": 2,
+  "treasure": false,
+  "require_recipe": true,
+  "loot_tables": [
+    "minecraft:chests/abandoned_mineshaft",
+    "minecraft:chests/simple_dungeon"
+  ],
+  "chance": 0.14,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "enchantment": "minecraft:efficiency",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:efficiency",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:efficiency",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:fortune",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:protection",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:protection",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:protection",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:unbreaking",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:unbreaking",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "enchantment": "minecraft:sharpness",
+  "level": 1,
+  "minimum_bookshelf_power": 2,
+  "recipe_visibility": "ALWAYS",
+  "progression_tier": "TIER_1_BASIC",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:flint"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "duration_ticks": 100,
+    "book_consumption_chance": 0.1
+  }
+}

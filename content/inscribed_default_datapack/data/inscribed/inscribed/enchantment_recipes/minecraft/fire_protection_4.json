@@ -1,0 +1,65 @@
+{
+  "enchantment": "minecraft:fire_protection",
+  "level": 4,
+  "minimum_bookshelf_power": 22,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      }
+    ],
+    "duration_ticks": 220,
+    "book_consumption_chance": 0.43
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 220,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_3_ADVANCED"
+}

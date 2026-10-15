@@ -1,0 +1,25 @@
+{
+  "enchantment": "minecraft:mending",
+  "level": 1,
+  "minimum_bookshelf_power": 10,
+  "recipe_visibility": "ALWAYS",
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      {
+        "item": "minecraft:echo_shard",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 100,
+    "empty_books_required": 1,
+    "failure_chance": 0
+  }
+}

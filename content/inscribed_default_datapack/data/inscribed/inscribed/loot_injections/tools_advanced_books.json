@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "theme": "UNDERGROUND",
+  "structure_tier": 3,
+  "treasure": false,
+  "require_recipe": true,
+  "loot_tables": [
+    "minecraft:chests/stronghold_library",
+    "minecraft:chests/stronghold_corridor"
+  ],
+  "chance": 0.18,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "enchantment": "minecraft:efficiency",
+      "min_level": 4,
+      "max_level": 4,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:fortune",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:fortune",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:unbreaking",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    }
+  ]
+}

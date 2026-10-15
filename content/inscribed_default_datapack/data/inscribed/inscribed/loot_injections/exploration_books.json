@@ -1,0 +1,118 @@
+{
+  "enabled": true,
+  "theme": "EXPLORATION",
+  "structure_tier": 3,
+  "treasure": false,
+  "require_recipe": true,
+  "loot_tables": [
+    "minecraft:chests/stronghold_crossing",
+    "minecraft:chests/woodland_mansion"
+  ],
+  "chance": 0.16,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "enchantment": "minecraft:depth_strider",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:feather_falling",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:feather_falling",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:feather_falling",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:feather_falling",
+      "min_level": 4,
+      "max_level": 4,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:impaling",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:impaling",
+      "min_level": 4,
+      "max_level": 4,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:impaling",
+      "min_level": 5,
+      "max_level": 5,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:infinity",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:loyalty",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:luck_of_the_sea",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:lure",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:respiration",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:riptide",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:sweeping_edge",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:sweeping_edge",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:sweeping_edge",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 8
+    }
+  ]
+}

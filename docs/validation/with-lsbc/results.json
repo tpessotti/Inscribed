@@ -1,0 +1,23 @@
+{
+  "targetAttachmentAndVanillaRenderer": "PASS",
+  "physicalShiftClickAndRunningSync": "PASS",
+  "serverCommitAndResultSync": "PASS",
+  "physicalRetrieval": "PASS",
+  "bookConsumptionAndNoDuplicate": "PASS",
+  "status": "PASS",
+  "phase": 13,
+  "ticks": 328,
+  "captures": [
+    "01-target-and-vanilla-book.png",
+    "02-prepared-altar.png",
+    "03-ritual-start.png",
+    "04-knowledge-transfer.png",
+    "05-enchanted-result.png"
+  ],
+  "mods": [
+    "minecraft",
+    "inscribed",
+    "lsbc",
+    "neoforge"
+  ]
+}

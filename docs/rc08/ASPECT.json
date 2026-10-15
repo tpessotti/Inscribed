@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "checks": [
+    "PASS sample 0 viewport 640x360",
+    "PASS sample 1 viewport 640x360",
+    "PASS sample 2 viewport 427x240",
+    "PASS sample 3 viewport 427x240",
+    "PASS sample 4 viewport 427x240",
+    "PASS sample 5 viewport 427x240",
+    "PASS sample 6 viewport 427x240",
+    "PASS sample 7 viewport 427x240",
+    "PASS sample 8 viewport 1720x720",
+    "PASS sample 9 viewport 1720x720",
+    "PASS sample 10 viewport 1147x480",
+    "PASS sample 11 viewport 1147x480",
+    "PASS sample 12 viewport 860x360",
+    "PASS sample 13 viewport 860x360",
+    "PASS sample 14 viewport 574x240",
+    "PASS sample 15 viewport 574x240",
+    "PASS sample 16 viewport 320x240",
+    "PASS sample 17 viewport 320x240",
+    "PASS sample 18 viewport 320x240",
+    "PASS sample 19 viewport 320x240",
+    "PASS sample 20 viewport 320x240",
+    "PASS sample 21 viewport 320x240",
+    "PASS sample 22 viewport 320x240",
+    "PASS sample 23 viewport 320x240"
+  ],
+  "status": "PASS"
+}

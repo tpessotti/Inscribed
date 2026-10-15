@@ -1,0 +1,378 @@
+[
+  {
+    "path": "src/main/resources/inscribed.mixins.json",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/resources/META-INF/neoforge.mods.toml",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/resources/data/create/tags/block/non_movable.json",
+    "status": "added"
+  },
+  {
+    "path": "src/main/resources/assets/inscribed/lang/en_us.json",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/resources/assets/inscribed/lang/pt_br.json",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/Inscribed.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/altar/AltarInteraction.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/config/ConfigRecipeStore.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/config/InscribedConfig.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/inspection/InspectionNetworking.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/knowledge/EnchantmentNames.java",
+    "status": "added"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/knowledge/GuideBookItem.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/knowledge/KnowledgeEvents.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/knowledge/KnowledgeNetworking.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/knowledge/KnowledgeService.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/loot/LootInjection.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/mixin/VanillaEnchantingMixin.java",
+    "status": "added"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/pedestal/InfusionPedestalBlock.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/pedestal/PedestalBlockEntity.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/recipe/InscribedRecipeRegistry.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/recipe/RecipeParser.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/registry/InscribedRegistries.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/ritual/RitualController.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/main/java/dev/inscribed/compat/jei/InscribedJeiPlugin.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/gameTest/resources/data/inscribed_authoring/structure/test_altar.nbt",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/resources/data/inscribed/enchantment/qa_missing.json",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/resources/data/inscribed/inscribed/enchantment_recipes/qa06_disabled.json",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/resources/data/inscribed/inscribed/enchantment_recipes/qa06_session.json",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/Authoring07GameTests.java",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/Hardening06GameTests.java",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/Multiplayer06Validation.java",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/Polish04GameTests.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/client/Aspect06Validation.java",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/client/GuideClientValidation.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/client/GuideJeiProbe.java",
+    "status": "modified"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/client/Migration06Validation.java",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/client/Multiplayer06Client.java",
+    "status": "added"
+  },
+  {
+    "path": "src/gameTest/java/dev/inscribed/client/PolishClientValidation.java",
+    "status": "modified"
+  },
+  {
+    "path": "docs/INSCRIBED07_REPORT.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_ADDON_API.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_CATALYST.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/INSCRIBED_COMPATIBILITY.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_CONFIGURATION.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_CONFIG_INVENTORY.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_DATAPACK_AUTHORING.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_INTEGRATIONS.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_KNOWN_LIMITATIONS.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_LOOT_INJECTION.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/INSCRIBED_MODPACK_QUICKSTART.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_QA_MATRIX.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_RECIPE_AUTHORING.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/INSCRIBED_RELEASE_CHECKLIST.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_RELEASE_DESCRIPTIONS.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_SAVE_MIGRATION.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/INSCRIBED_TROUBLESHOOTING.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/MODPACK_CONFIGURATION.md",
+    "status": "modified"
+  },
+  {
+    "path": "docs/images/guide-book.png",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/CHANGED_FILES.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/INITIAL_CHECKLIST.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/INSTALLED_CONFIG_AFTER.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/INSTALLED_CONFIG_BEFORE.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/MANUAL_TEST_CHECKLIST.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/METADATA_AUDIT.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/RELEASE07_AUDIT.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/RESULTS.json",
+    "status": "added"
+  },
+  {
+    "path": "docs/schema/inscribed_enchantment_recipe_v1.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/schema/inscribed_loot_v1.md",
+    "status": "added"
+  },
+  {
+    "path": "tools/release07_audit.py",
+    "status": "added"
+  },
+  {
+    "path": "examples/config_overlay/loot.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/config_overlay/recipes.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/pack.mcmeta",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/README.md",
+    "status": "added"
+  },
+  {
+    "path": "examples/minimal/pack.mcmeta",
+    "status": "added"
+  },
+  {
+    "path": "examples/minimal/README.md",
+    "status": "added"
+  },
+  {
+    "path": "examples/minimal/data/minimal/inscribed/enchantment_recipes/sharpness_basic.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/data/example/inscribed/enchantment_recipes/create_capacity.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/data/example/inscribed/enchantment_recipes/fortune_advanced.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/data/example/inscribed/enchantment_recipes/sharpness_basic.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/data/example/inscribed/loot_injections/high_tier.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/data/example/inscribed/loot_injections/mineshaft.json",
+    "status": "added"
+  },
+  {
+    "path": "examples/inscribed_example_datapack/data/example/inscribed/loot_injections/shipwreck.json",
+    "status": "added"
+  },
+  {
+    "path": "templates/loot_entry.json",
+    "status": "added"
+  },
+  {
+    "path": "templates/recipe_advanced.json",
+    "status": "added"
+  },
+  {
+    "path": "templates/recipe_basic.json",
+    "status": "added"
+  },
+  {
+    "path": "templates/recipe_modded_create.json",
+    "status": "added"
+  },
+  {
+    "path": "schemas/inscribed_enchantment_recipe.schema.json",
+    "status": "added"
+  },
+  {
+    "path": "schemas/inscribed_loot.schema.json",
+    "status": "added"
+  },
+  {
+    "path": "build.gradle",
+    "status": "modified"
+  },
+  {
+    "path": "gradle.properties",
+    "status": "modified"
+  },
+  {
+    "path": "README.md",
+    "status": "modified"
+  },
+  {
+    "path": "LICENSE",
+    "status": "added"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "status": "added"
+  },
+  {
+    "path": "CREDITS.md",
+    "status": "added"
+  },
+  {
+    "path": "docs/qa06/RELEASE_MANIFEST.json",
+    "status": "added"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "mutation": "duplicate logical recipe",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-476bmwgg/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: accidental duplicate ('infusion', 'minecraft:sharpness', 1): build/inscribed-rc-gate-476bmwgg/pack/data/inscribed/inscribed/enchantment_recipes/duplicate.json, build/inscribed-rc-gate-476bmwgg/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json"
+    },
+    {
+      "mutation": "unknown enchantment",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-sfgqqrsr/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: unknown enchantment minecraft:no_such_enchantment"
+    },
+    {
+      "mutation": "invalid level",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-wd3dn02q/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: invalid level 99 for minecraft:sharpness"
+    },
+    {
+      "mutation": "nine ingredients",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-3na2znca/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: [{'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}, {'item': 'minecraft:iron_ingot'}] is too long\n\nFailed validating 'maxItems' in schema['properties']['infusion']['properties']['ingredients']:\n    {'type': 'array',\n     'maxItems': 8,\n     'items': {'type': 'object',\n               'properties': {'item': {'type': 'string',\n                                       'pattern': '^[a-z0-9_.-]+:[a-z0-9_./-]+$'},\n                              'tag': {'type': 'string',\n                                      'pattern': '^[a-z0-9_.-]+:[a-z0-9_./-]+$'},\n                              'type': {'type': 'string',\n                                       'pattern': '^[a-z0-9_.-]+:[a-z0-9_./-]+$'},\n                              'count': {'type': 'integer',\n                                        'minimum': 1,\n                                        'maximum': 8}},\n               'oneOf': [{'required': ['item'],\n                          'not': {'anyOf': [{'required': ['tag']},\n                                            {'required': ['type']}]}},\n                         {'required': ['tag'],\n                          'not': {'anyOf': [{'required': ['item']},\n                                            {'required': ['type']}]}},\n                         {'required': ['type']}],\n               'additionalProperties': True,\n               'description': 'One physical pedestal per expanded count. '\n                              'Prefer repeating entries; count is a legacy '\n                              'alias.'},\n     'description': 'Expanded count sum must also be <=8 (runtime '\n                    'validation).'}\n\nOn instance['infusion']['ingredients']:\n    [{'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'},\n     {'item': 'minecraft:iron_ingot'}]"
+    },
+    {
+      "mutation": "multi-count pedestal",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-ad8vdmp4/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: infusion: maximum eight unit ingredients"
+    },
+    {
+      "mutation": "missing extraction",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-63im2z6x/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: missing required extraction"
+    },
+    {
+      "mutation": "invalid probability",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-d3wb0iu3/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: 1.1 is greater than the maximum of 1\n\nFailed validating 'maximum' in schema['properties']['extraction']['properties']['failure_chance']:\n    {'type': 'number', 'minimum': 0, 'maximum': 1, 'default': 0}\n\nOn instance['extraction']['failure_chance']:\n    1.1"
+    },
+    {
+      "mutation": "unknown ingredient",
+      "status": "PASS",
+      "diagnostic": "build/inscribed-rc-gate-5b9jg3t2/pack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json: unknown ingredient item minecraft:no_such_item; runtime registry validation also required"
+    },
+    {
+      "mutation": "duplicate archive recipe_id",
+      "status": "PASS",
+      "diagnostic": "Duplicate archive/recipe IDs in duplicate.zip: ['data/inscribed/inscribed/enchantment_recipes/same_id.json']"
+    }
+  ]
+}

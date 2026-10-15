@@ -1,0 +1,13 @@
+{
+  "changed": {
+    "sounds.infusion_start": {
+      "before": "minecraft:block.enchantment_table.use",
+      "after": "minecraft:block.beacon.activate"
+    }
+  },
+  "added": {
+    "visuals.pedestal_item_scale": 0.8,
+    "sounds.infusion_ambient": "minecraft:block.beacon.ambient"
+  },
+  "previousOptionsPreserved": 54
+}

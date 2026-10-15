@@ -1,0 +1,19 @@
+{
+  "enchantment": "minecraft:knockback",
+  "level": 1,
+  "minimum_bookshelf_power": 2,
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:diamond",
+        "count": 1
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 12,
+    "book_consumption_chance": 1
+  }
+}

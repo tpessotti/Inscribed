@@ -1,0 +1,62 @@
+{
+  "enchantment": "minecraft:frost_walker",
+  "level": 2,
+  "minimum_bookshelf_power": 27,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:blue_ice"
+      },
+      {
+        "item": "minecraft:blue_ice"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 140,
+    "book_consumption_chance": 0.53
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:blue_ice"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 140,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_4_TREASURE"
+}

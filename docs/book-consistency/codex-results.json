@@ -1,0 +1,1842 @@
+{
+  "captures": [
+    {
+      "requestedGuiScale": 2,
+      "file": "000-en_us-1920x1080-scale2-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 189,
+        "y": 110,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 960,
+      "scaledHeight": 540,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "001-en_us-1920x1080-scale2-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 189,
+        "y": 110,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 960,
+      "scaledHeight": 540,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "002-en_us-1920x1080-scale2-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 189,
+        "y": 110,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 960,
+      "scaledHeight": 540,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "003-en_us-1920x1080-scale2-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 189,
+        "y": 110,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 960,
+      "scaledHeight": 540,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "004-en_us-1920x1080-scale2-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 189,
+        "y": 110,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 960,
+      "scaledHeight": 540,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "005-en_us-1920x1080-scale2-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 189,
+        "y": 110,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 960,
+      "scaledHeight": 540,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "006-en_us-1920x1080-scale2-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 189,
+        "y": 110,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 960,
+      "scaledHeight": 540,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "007-en_us-1920x1080-scale3-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 49,
+        "y": 32,
+        "width": 477,
+        "height": 295
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 360,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "008-en_us-1920x1080-scale3-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 49,
+        "y": 32,
+        "width": 477,
+        "height": 295
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 360,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "009-en_us-1920x1080-scale3-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 49,
+        "y": 32,
+        "width": 477,
+        "height": 295
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 360,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "010-en_us-1920x1080-scale3-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 49,
+        "y": 32,
+        "width": 477,
+        "height": 295
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 360,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "011-en_us-1920x1080-scale3-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 49,
+        "y": 32,
+        "width": 477,
+        "height": 295
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 360,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "012-en_us-1920x1080-scale3-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 49,
+        "y": 32,
+        "width": 477,
+        "height": 295
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 360,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "013-en_us-1920x1080-scale3-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 49,
+        "y": 32,
+        "width": 477,
+        "height": 295
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 360,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "014-en_us-1920x1080-scale4-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "015-en_us-1920x1080-scale4-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "016-en_us-1920x1080-scale4-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "017-en_us-1920x1080-scale4-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "018-en_us-1920x1080-scale4-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "019-en_us-1920x1080-scale4-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "020-en_us-1920x1080-scale4-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "021-en_us-1920x1080-scaleauto-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "022-en_us-1920x1080-scaleauto-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "023-en_us-1920x1080-scaleauto-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "024-en_us-1920x1080-scaleauto-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "025-en_us-1920x1080-scaleauto-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "026-en_us-1920x1080-scaleauto-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "027-en_us-1920x1080-scaleauto-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 1080,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 29,
+        "y": 24,
+        "width": 358,
+        "height": 221
+      },
+      "scaledWidth": 480,
+      "scaledHeight": 270,
+      "windowWidth": 1920
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "028-en_us-1280x960-scale2-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "029-en_us-1280x960-scale2-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "030-en_us-1280x960-scale2-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "031-en_us-1280x960-scale2-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "032-en_us-1280x960-scale2-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "033-en_us-1280x960-scale2-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "034-en_us-1280x960-scale2-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "035-en_us-1280x960-scale3-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "036-en_us-1280x960-scale3-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "037-en_us-1280x960-scale3-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "038-en_us-1280x960-scale3-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "039-en_us-1280x960-scale3-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "040-en_us-1280x960-scale3-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "041-en_us-1280x960-scale3-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "042-en_us-1280x960-scale4-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "043-en_us-1280x960-scale4-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "044-en_us-1280x960-scale4-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "045-en_us-1280x960-scale4-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "046-en_us-1280x960-scale4-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "047-en_us-1280x960-scale4-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "048-en_us-1280x960-scale4-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "049-en_us-1280x960-scaleauto-home-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "050-en_us-1280x960-scaleauto-block-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "051-en_us-1280x960-scaleauto-item-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "052-en_us-1280x960-scaleauto-entity-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "053-en_us-1280x960-scaleauto-location-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "054-en_us-1280x960-scaleauto-clues-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "055-en_us-1280x960-scaleauto-deductions-many.png",
+      "language": "en_us",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "056-pt_br-1280x960-scale2-home-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "057-pt_br-1280x960-scale2-block-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "058-pt_br-1280x960-scale2-item-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "059-pt_br-1280x960-scale2-entity-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "060-pt_br-1280x960-scale2-location-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "061-pt_br-1280x960-scale2-clues-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 2,
+      "file": "062-pt_br-1280x960-scale2-deductions-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 2.0,
+      "book": {
+        "x": 29,
+        "y": 80,
+        "width": 518,
+        "height": 320
+      },
+      "scaledWidth": 640,
+      "scaledHeight": 480,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "063-pt_br-1280x960-scale3-home-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "064-pt_br-1280x960-scale3-block-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "065-pt_br-1280x960-scale3-item-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "066-pt_br-1280x960-scale3-entity-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "067-pt_br-1280x960-scale3-location-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "068-pt_br-1280x960-scale3-clues-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 3,
+      "file": "069-pt_br-1280x960-scale3-deductions-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 3.0,
+      "book": {
+        "x": 11,
+        "y": 54,
+        "width": 341,
+        "height": 211
+      },
+      "scaledWidth": 427,
+      "scaledHeight": 320,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "070-pt_br-1280x960-scale4-home-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "071-pt_br-1280x960-scale4-block-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "072-pt_br-1280x960-scale4-item-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "073-pt_br-1280x960-scale4-entity-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "074-pt_br-1280x960-scale4-location-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "075-pt_br-1280x960-scale4-clues-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "076-pt_br-1280x960-scale4-deductions-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "077-pt_br-1280x960-scaleauto-home-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "078-pt_br-1280x960-scaleauto-block-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "079-pt_br-1280x960-scaleauto-item-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "080-pt_br-1280x960-scaleauto-entity-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "081-pt_br-1280x960-scaleauto-location-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "082-pt_br-1280x960-scaleauto-clues-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 0,
+      "file": "083-pt_br-1280x960-scaleauto-deductions-many.png",
+      "language": "pt_br",
+      "variant": "many",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "084-pt_br-1280x960-scale4-home-empty.png",
+      "language": "pt_br",
+      "variant": "empty",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "085-pt_br-1280x960-scale4-block-empty.png",
+      "language": "pt_br",
+      "variant": "empty",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "086-pt_br-1280x960-scale4-item-empty.png",
+      "language": "pt_br",
+      "variant": "empty",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "087-pt_br-1280x960-scale4-entity-empty.png",
+      "language": "pt_br",
+      "variant": "empty",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "088-pt_br-1280x960-scale4-location-empty.png",
+      "language": "pt_br",
+      "variant": "empty",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "089-pt_br-1280x960-scale4-clues-empty.png",
+      "language": "pt_br",
+      "variant": "empty",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "090-pt_br-1280x960-scale4-deductions-empty.png",
+      "language": "pt_br",
+      "variant": "empty",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "091-pt_br-1280x960-scale4-block-few.png",
+      "language": "pt_br",
+      "variant": "few",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "092-pt_br-1280x960-scale4-block-drawer.png",
+      "language": "pt_br",
+      "variant": "drawer",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "093-pt_br-1280x960-scale4-block-search.png",
+      "language": "pt_br",
+      "variant": "search",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "094-pt_br-1280x960-scale4-block-card.png",
+      "language": "pt_br",
+      "variant": "card",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "095-pt_br-1280x960-scale4-clues-link.png",
+      "language": "pt_br",
+      "variant": "link",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "096-pt_br-1280x960-scale4-clues-back.png",
+      "language": "pt_br",
+      "variant": "back",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "097-pt_br-1280x960-scale4-clues-known.png",
+      "language": "pt_br",
+      "variant": "known",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "098-pt_br-1280x960-scale4-entity-scroll.png",
+      "language": "pt_br",
+      "variant": "scroll",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "099-pt_br-1280x960-scale4-location-scroll.png",
+      "language": "pt_br",
+      "variant": "scroll",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "100-pt_br-1280x960-scale4-clues-scroll.png",
+      "language": "pt_br",
+      "variant": "scroll",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "101-pt_br-1280x960-scale4-deductions-scroll.png",
+      "language": "pt_br",
+      "variant": "scroll",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "102-pt_br-1280x960-scale4-item-drawer.png",
+      "language": "pt_br",
+      "variant": "drawer",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "103-pt_br-1280x960-scale4-entity-drawer.png",
+      "language": "pt_br",
+      "variant": "drawer",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "104-pt_br-1280x960-scale4-location-drawer.png",
+      "language": "pt_br",
+      "variant": "drawer",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "105-pt_br-1280x960-scale4-clues-drawer.png",
+      "language": "pt_br",
+      "variant": "drawer",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "106-pt_br-1280x960-scale4-home-home_link.png",
+      "language": "pt_br",
+      "variant": "home_link",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    },
+    {
+      "requestedGuiScale": 4,
+      "file": "107-pt_br-1280x960-scale4-item-grid_page.png",
+      "language": "pt_br",
+      "variant": "grid_page",
+      "windowHeight": 960,
+      "effectiveGuiScale": 4.0,
+      "book": {
+        "x": 11,
+        "y": 47,
+        "width": 234,
+        "height": 145
+      },
+      "scaledWidth": 320,
+      "scaledHeight": 240,
+      "windowWidth": 1280
+    }
+  ],
+  "evidence": "Native Minecraft rendered presentation fixtures; no world/server acceptance claim",
+  "status": "PASS"
+}

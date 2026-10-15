@@ -1,0 +1,1 @@
+Copy this directory into `<world>/datapacks/`, then `/reload`. Recipe ID: `minimal:sharpness_basic`. It requires a Sharpness I+ physical book, 2 bookshelf power and one item on each of three pedestals. See ../../docs/INSCRIBED_MODPACK_QUICKSTART.md.

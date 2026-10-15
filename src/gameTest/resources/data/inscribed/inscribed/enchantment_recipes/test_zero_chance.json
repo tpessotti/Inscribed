@@ -1,0 +1,19 @@
+{
+  "enchantment": "minecraft:unbreaking",
+  "level": 3,
+  "minimum_bookshelf_power": 2,
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:redstone",
+        "count": 1
+      },
+      {
+        "item": "minecraft:redstone",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 12,
+    "book_consumption_chance": 0
+  }
+}

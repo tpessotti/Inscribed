@@ -1,0 +1,68 @@
+{
+  "enchantment": "minecraft:thorns",
+  "level": 3,
+  "minimum_bookshelf_power": 20,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "minecraft:cactus"
+      },
+      {
+        "item": "minecraft:cactus"
+      },
+      {
+        "item": "minecraft:cactus"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 180,
+    "book_consumption_chance": 0.39
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:cactus"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 180,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_3_ADVANCED"
+}

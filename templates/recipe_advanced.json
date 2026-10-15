@@ -1,0 +1,62 @@
+{
+  "enchantment": "minecraft:fortune",
+  "level": 3,
+  "minimum_bookshelf_power": 22,
+  "recipe_visibility": "EXPLICIT_DISCOVERY",
+  "progression_tier": "TIER_3_ADVANCED",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:ender_pearl"
+      },
+      {
+        "item": "minecraft:emerald"
+      }
+    ],
+    "duration_ticks": 200,
+    "book_consumption_chance": 0.8
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:ender_pearl"
+      },
+      {
+        "item": "minecraft:obsidian"
+      },
+      {
+        "item": "minecraft:obsidian"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 200,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  }
+}

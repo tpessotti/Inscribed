@@ -1,0 +1,245 @@
+{
+  "enabled": true,
+  "theme": "COMBAT",
+  "structure_tier": 2,
+  "treasure": false,
+  "require_recipe": true,
+  "loot_tables": [
+    "minecraft:chests/pillager_outpost",
+    "minecraft:chests/jungle_temple",
+    "minecraft:chests/desert_pyramid"
+  ],
+  "chance": 0.12,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "enchantment": "minecraft:bane_of_arthropods",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:bane_of_arthropods",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:bane_of_arthropods",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:binding_curse",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:blast_protection",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:blast_protection",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:fire_aspect",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:fire_aspect",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:fire_protection",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:fire_protection",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:flame",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:knockback",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:knockback",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:looting",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:multishot",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:piercing",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:piercing",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:power",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:power",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:power",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:projectile_protection",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:projectile_protection",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:protection",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:protection",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:protection",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:punch",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:punch",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:quick_charge",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:quick_charge",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:sharpness",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:sharpness",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:smite",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:smite",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:smite",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:thorns",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    },
+    {
+      "enchantment": "minecraft:thorns",
+      "min_level": 2,
+      "max_level": 2,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:vanishing_curse",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 10
+    },
+    {
+      "enchantment": "minecraft:sharpness",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 16
+    }
+  ]
+}

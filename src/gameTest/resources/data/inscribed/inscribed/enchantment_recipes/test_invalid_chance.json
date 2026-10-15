@@ -1,0 +1,10 @@
+{
+  "enchantment": "minecraft:sharpness",
+  "level": 1,
+  "minimum_bookshelf_power": 0,
+  "infusion": {
+    "ingredients": [],
+    "duration_ticks": 1,
+    "book_consumption_chance": 1.1
+  }
+}

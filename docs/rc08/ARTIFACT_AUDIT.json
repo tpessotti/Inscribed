@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "productionJavaChanges": [],
+  "canonicalDataFiles": 156,
+  "recipes": 131,
+  "logicalDefinitions": 262,
+  "duplicateArchiveIds": [],
+  "licenseUnchanged": true,
+  "defaultsSemanticallyUnchanged": true,
+  "jar": {
+    "name": "inscribed-0.7.2-rc.1.jar",
+    "bytes": 1020799,
+    "sha256": "2fd597457a755a1000458992c62c96485a7f8cb8d10fbdd2fc8ee9d16b7ca6a5"
+  },
+  "datapack": {
+    "name": "inscribed-vanilla-create-0.7.2-rc.1.zip",
+    "bytes": 131964,
+    "sha256": "221fe2ac6cb24b9d5c5e4f4616b1fd850ae29269a7aecfa737236c582ac9de33"
+  }
+}

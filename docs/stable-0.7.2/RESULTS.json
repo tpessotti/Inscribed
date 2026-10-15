@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "version": "0.7.2",
+  "promotedFrom": "0.7.2-rc.1",
+  "ownerApprovedDate": "2026-10-14",
+  "repository": "https://github.com/tpessotti/Inscribed",
+  "repositoryPrivate": true,
+  "cleanBuild": "PASS",
+  "standaloneRepositoryBuild": "PASS",
+  "standaloneJarByteIdentical": true,
+  "junitTests": 4,
+  "dedicatedGameTests": {
+    "InscribedOnly": 100,
+    "FullOptionalCombination": 100
+  },
+  "nativeClient": {
+    "lsbc": true,
+    "jei": true,
+    "unknownCatalogAndBookshelfNoLearning": "PASS",
+    "guideItemRightClick": "PASS",
+    "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+    "partialKnownWordsIdentitySearchAndIndependentKnowledge": "PASS",
+    "guideSearchDoesNotMatchUnknownWords": "PASS",
+    "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+    "bidirectionalEnchantmentRecipeNavigation": "PASS",
+    "identicalCodexGuideBookBounds": "PASS",
+    "codexFifthTabAndSharedGuide": "PASS",
+    "jeiIntegrationToggleDisableRestore": "PASS",
+    "jeiCategoriesAndPublicApiPerPlayerVisibility": "PASS",
+    "jeiCatalystAndUnitConstraints": "PASS",
+    "reloadRemovesRecipesAndRefreshesJei": "PASS",
+    "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+    "guideCatalystAndUnitConstraints": "PASS",
+    "bookDiagramsAndFourGuiScales": "PASS",
+    "createRegistryKnowledgeGuide": "PASS",
+    "createJei": "PASS",
+    "status": "PASS"
+  },
+  "differencesFromRC": [
+    "META-INF/neoforge.mods.toml"
+  ],
+  "gameplayClassesAssetsAndDataByteIdentical": true,
+  "extractionDefaultFailureChance": 0.2,
+  "installedJar": "mods/inscribed-0.7.2.jar",
+  "oldJarBackup": "CODEX LSBC/INSCRIBED/backups/2026-10-14-pre-stable-0.7.2/removed-from-mods-inscribed-0.7.1.jar",
+  "protectedConfigAndLsbcHashesUnchanged": {
+    "config/inscribed/recipes.json": true,
+    "config/inscribed/loot.json": true,
+    "config/inscribed-server.toml": true,
+    "mods/lsbc-core-0.22.1.jar": true
+  },
+  "artifacts": [
+    {
+      "name": "inscribed-0.7.2.jar",
+      "bytes": 1020840,
+      "sha256": "84124b2262a53ea5ac836e8e667e90b5777378a97a15962e1ca9d68041f57c61"
+    },
+    {
+      "name": "inscribed-vanilla-create-0.7.2.zip",
+      "bytes": 131960,
+      "sha256": "7ee9857f1b33a7c217db35eb6bfc80a0630a8d2e6ca6d51010624a125fc8213c"
+    }
+  ],
+  "publication": "owner-authorized private repository and v0.7.2 release"
+}

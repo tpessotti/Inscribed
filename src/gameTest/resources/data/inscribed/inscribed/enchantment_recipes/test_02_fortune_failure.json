@@ -1,0 +1,20 @@
+{
+  "enchantment": "minecraft:fortune",
+  "level": 3,
+  "minimum_bookshelf_power": 2,
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:paper",
+        "count": 1
+      },
+      {
+        "item": "minecraft:coal",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 20,
+    "empty_books_required": 2,
+    "failure_chance": 1
+  }
+}

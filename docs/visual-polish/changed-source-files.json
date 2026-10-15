@@ -1,0 +1,48 @@
+{
+  "inscribed": [
+    "src/main/resources/assets/inscribed/lang/en_us.json",
+    "src/main/resources/assets/inscribed/lang/pt_br.json",
+    "src/main/resources/assets/inscribed/textures/item/guide_book_placeholder_v2.png",
+    "src/main/resources/assets/inscribed/models/block/infusion_pedestal.json",
+    "src/main/resources/assets/inscribed/models/item/guide_book.json",
+    "src/main/java/dev/inscribed/client/FloatingItemRenderer.java",
+    "src/main/java/dev/inscribed/client/GuideScreen.java",
+    "src/main/java/dev/inscribed/client/OpenBookBackground.java",
+    "src/main/java/dev/inscribed/client/PedestalRenderer.java",
+    "src/main/java/dev/inscribed/client/RitualAmbientSound.java",
+    "src/main/java/dev/inscribed/client/RitualDiagram.java",
+    "src/main/java/dev/inscribed/client/TableTargetRenderer.java",
+    "src/main/java/dev/inscribed/config/InscribedConfig.java",
+    "src/main/java/dev/inscribed/pedestal/InfusionPedestalBlock.java",
+    "src/gameTest/java/dev/inscribed/client/GuideClientValidation.java",
+    "src/gameTest/java/dev/inscribed/client/PolishClientValidation.java",
+    "build.gradle",
+    "gradle.properties",
+    "README.md"
+  ],
+  "lsbc_core": [
+    "src/test/java/dev/lsbc/codex/CodexLayoutTest.java",
+    "src/test/java/dev/lsbc/discovery/DiscoveryNamesTest.java",
+    "src/main/resources/assets/lsbc/textures/item/codex_placeholder_v2.png",
+    "src/main/resources/assets/lsbc/models/item/codex.json",
+    "src/main/java/dev/lsbc/discovery/DiscoveryNames.java",
+    "src/main/java/dev/lsbc/codex/layout/CodexLayoutMetrics.java",
+    "src/main/java/dev/lsbc/client/codex/CodexScreen.java",
+    "src/main/java/dev/lsbc/client/codex/CodexTheme.java",
+    "src/main/java/dev/lsbc/client/codex/OpenBookBackground.java",
+    "src/main/java/dev/lsbc/client/codex/widget/CodexLabel.java",
+    "src/main/java/dev/lsbc/client/codex/widget/CodexRibbonTab.java",
+    "src/main/java/dev/lsbc/client/codex/widget/CodexSlotGrid.java",
+    "src/gameTest/java/dev/lsbc/client/CodexLayoutClientValidation.java",
+    "gradle.properties",
+    "README.md"
+  ],
+  "installedConfig": [
+    "config/inscribed-server.toml"
+  ],
+  "documentation": [
+    "inscribed/docs/visual-polish/ASSETS.md",
+    "inscribed/docs/visual-polish/REPORT.md",
+    "inscribed/docs/visual-polish/RELEASE_MANIFEST.json"
+  ]
+}

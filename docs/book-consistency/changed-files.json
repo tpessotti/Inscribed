@@ -1,0 +1,24 @@
+{
+  "lsbc_core": [
+    "src/test/java/dev/lsbc/codex/CodexLayoutTest.java",
+    "src/main/java/dev/lsbc/codex/layout/BookGeometry.java",
+    "src/main/java/dev/lsbc/codex/layout/CodexLayoutMetrics.java",
+    "src/main/java/dev/lsbc/client/codex/CodexScreen.java",
+    "src/main/java/dev/lsbc/client/codex/widget/CodexPager.java",
+    "src/main/java/dev/lsbc/client/codex/widget/CodexRibbonTab.java",
+    "src/main/java/dev/lsbc/client/codex/widget/CodexSlotGrid.java",
+    "src/gameTest/java/dev/lsbc/client/CodexLayoutClientValidation.java",
+    "gradle.properties",
+    "README.md"
+  ],
+  "inscribed": [
+    "src/main/java/dev/inscribed/client/BookGeometry.java",
+    "src/main/java/dev/inscribed/client/BookSearchBox.java",
+    "src/main/java/dev/inscribed/client/BookTheme.java",
+    "src/main/java/dev/inscribed/client/GuideScreen.java",
+    "src/gameTest/java/dev/inscribed/client/GuideClientValidation.java",
+    "gradle.properties",
+    "build.gradle",
+    "README.md"
+  ]
+}

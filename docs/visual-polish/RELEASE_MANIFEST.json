@@ -1,0 +1,49 @@
+{
+  "versions": {
+    "inscribed": "0.6.0",
+    "lsbc": "0.22.0"
+  },
+  "installed": {
+    "mods\\inscribed-0.6.0.jar": {
+      "sha256": "e7bd76d2686856695b30fb426ab8c0d3fe9fd4e4305a1970abdd3f717d5edd9e",
+      "bytes": 999852
+    },
+    "mods\\lsbc-core-0.22.0.jar": {
+      "sha256": "29cd9f65ec8e25aa014416b4b5a4d06a7e55ef27b996ef02e8eaa6d37ca6aa99",
+      "bytes": 1668678
+    }
+  },
+  "tests": {
+    "junit": {
+      "inscribed": 4,
+      "lsbc": 112
+    },
+    "serverStandalone": 88,
+    "serverWithLsbc": 88,
+    "nativeCodexCaptures": 108,
+    "nativeGuideStandalone": "PASS",
+    "nativeGuideLsbcJei": "PASS",
+    "nativeRitualAudioCleanup": "PASS"
+  },
+  "preservation": {
+    "inscribedDataUnchanged": true,
+    "lsbc_coreDataUnchanged": true,
+    "optionalVendorClassesExcluded": true,
+    "foreignModsUnchanged": true,
+    "recipesUnchanged": true
+  },
+  "config": {
+    "changed": {
+      "sounds.infusion_start": {
+        "before": "minecraft:block.enchantment_table.use",
+        "after": "minecraft:block.beacon.activate"
+      }
+    },
+    "added": {
+      "visuals.pedestal_item_scale": 0.8,
+      "sounds.infusion_ambient": "minecraft:block.beacon.ambient"
+    }
+  },
+  "assets": "ASSETS.md",
+  "backups": "CODEX LSBC/INSCRIBED/backups/2026-10-13-pre-visual-polish"
+}

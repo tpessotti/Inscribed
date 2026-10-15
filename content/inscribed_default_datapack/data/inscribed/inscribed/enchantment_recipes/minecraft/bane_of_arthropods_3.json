@@ -1,0 +1,59 @@
+{
+  "enchantment": "minecraft:bane_of_arthropods",
+  "level": 3,
+  "minimum_bookshelf_power": 12,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "minecraft:spider_eye"
+      },
+      {
+        "item": "minecraft:spider_eye"
+      },
+      {
+        "item": "minecraft:spider_eye"
+      }
+    ],
+    "duration_ticks": 180,
+    "book_consumption_chance": 0.26
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:spider_eye"
+      }
+    ],
+    "duration_ticks": 180,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_2_INTERMEDIATE"
+}

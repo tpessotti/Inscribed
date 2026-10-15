@@ -1,0 +1,47 @@
+[
+  {
+    "id": "home",
+    "title": "Inscribed",
+    "body": "Rituais fortes exigem bibliotecas melhores, reagentes raros e, às vezes, um Catalisador de Encantamento. Encontrar um livro poderoso cedo não substitui esses requisitos."
+  },
+  {
+    "id": "altar",
+    "title": "Altar",
+    "body": "Coloque o alvo numa mesa de encantamentos, ingredientes nos pedestais próximos e livros de referência ou vazios em estantes esculpidas. Use shift + clique direito para iniciar. Analise com a lupa ou com livro e pena quando LSBC estiver ausente. Infusão converge para o alvo; extração flui do alvo para o livro."
+  },
+  {
+    "id": "infusion",
+    "title": "Infusão",
+    "body": "Um livro encantado físico autoriza seu encantamento no nível exigido ou superior, salvo receitas que exigem nível exato. Forneça os ingredientes e a potência necessária. Se várias infusões corresponderem, escolha uma na tela. A chance configurada pode consumir o livro inteiro de referência, inclusive seus outros encantamentos."
+  },
+  {
+    "id": "extraction",
+    "title": "Extração",
+    "body": "Os ingredientes nos pedestais selecionam o encantamento extraído, sem tela de seleção. Forneça livros vazios nas estantes e potência suficiente. A falha consome ingredientes e livros vazios e remove o encantamento selecionado sem gerar livro. Os outros encantamentos permanecem. Ajuste os ingredientes se houver várias correspondências."
+  },
+  {
+    "id": "library",
+    "title": "Biblioteca física",
+    "body": "Estantes esculpidas guardam livros encantados de referência e livros vazios. Eles devem permanecer no lugar durante o ritual. Ver um livro numa estante ou num contêiner não ensina o encantamento. Na extração, reserve um slot que ficará vazio para receber o livro resultante."
+  },
+  {
+    "id": "pedestals",
+    "title": "Pedestais e Catalyst",
+    "body": "Cada pedestal aceita um item; cada ritual usa no máximo oito ingredientes em pedestais separados. Retire e separe pilhas antigas. Rituais fortes usam Catalisador de Encantamento, encontrado raramente em estruturas intermediárias e com maior frequência em fontes perigosas de tesouro. Rituais tardios também exigem materiais avançados. Rituais básicos não exigem Catalyst."
+  },
+  {
+    "id": "power",
+    "title": "Potência de estantes",
+    "body": "Rituais fortes exigem bibliotecas melhores. Amplie a potência das estantes comuns e inspecione o altar antes de arriscar um livro raro. Estantes esculpidas fornecem conhecimento físico, não potência."
+  },
+  {
+    "id": "recipes",
+    "title": "Conhecimento e configuração",
+    "body": "Procure conhecimento aquático no oceano, ferramentas no subsolo, combate em estruturas hostis e conhecimento raro em cidades ancestrais, bastiões e cidades do End. Livros Create também aparecem nos pools configurados de minas e fortalezas. Como a infusão pode consumir o livro, duplicatas continuam valiosas. Os ingredientes escolhem a extração, mantendo o risco de falha de 20% exibido na receita. Modpacks podem alterar potência, reagentes, risco e distribuição em config/inscribed/recipes.json e config/inscribed/loot.json; /inscribed reload aplica as mudanças."
+  },
+  {
+    "id": "anvil",
+    "title": "Bigorna",
+    "body": "A bigorna preserva os encantamentos do primeiro item. Use o altar para aplicar ou extrair encantamentos. Reparos e nomes continuam disponíveis quando preservam os encantamentos. A regra pode ser configurada pelo modpack."
+  }
+]

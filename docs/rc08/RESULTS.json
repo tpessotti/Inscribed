@@ -1,0 +1,277 @@
+{
+  "status": "PASS",
+  "version": "0.7.2-rc.1",
+  "base": {
+    "version": "0.7.1",
+    "git": "not a repository",
+    "branch": null,
+    "commit": null,
+    "jarSha256": "d53a3ce52ca29153512d5efb6ebe18bd353242b4a1c10b0e03271ce00203bcbc"
+  },
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.255",
+  "java": 21,
+  "matrix": [
+    {
+      "case": "A",
+      "optionalMods": "Inscribed only",
+      "dedicatedGameTests": 100,
+      "dedicated": "PASS",
+      "nativeClient": "PASS"
+    },
+    {
+      "case": "B",
+      "optionalMods": "+ JEI",
+      "dedicatedGameTests": 100,
+      "dedicated": "PASS",
+      "nativeClient": "PASS"
+    },
+    {
+      "case": "C",
+      "optionalMods": "+ LSBC",
+      "dedicatedGameTests": 100,
+      "dedicated": "PASS",
+      "nativeClient": "PASS"
+    },
+    {
+      "case": "D",
+      "optionalMods": "+ LSBC + JEI",
+      "dedicatedGameTests": 100,
+      "dedicated": "PASS",
+      "nativeClient": "PASS"
+    },
+    {
+      "case": "E",
+      "optionalMods": "+ Create",
+      "dedicatedGameTests": 100,
+      "dedicated": "PASS",
+      "nativeClient": "PASS"
+    },
+    {
+      "case": "F",
+      "optionalMods": "+ Create + JEI",
+      "dedicatedGameTests": 100,
+      "dedicated": "PASS",
+      "nativeClient": "PASS"
+    },
+    {
+      "case": "G",
+      "optionalMods": "+ Create + LSBC + JEI",
+      "dedicatedGameTests": 100,
+      "dedicated": "PASS",
+      "nativeClient": "PASS"
+    }
+  ],
+  "junit": 4,
+  "matrixGameTestExecutions": 700,
+  "authoring": [
+    {
+      "case": "A",
+      "suite": "authoring load/infusion/reload",
+      "tests": 3,
+      "status": "PASS"
+    },
+    {
+      "case": "A",
+      "suite": "authoring extraction/toggles",
+      "tests": 3,
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "suite": "authoring load/infusion/reload",
+      "tests": 3,
+      "status": "PASS"
+    },
+    {
+      "case": "E",
+      "suite": "authoring extraction/toggles",
+      "tests": 3,
+      "status": "PASS"
+    },
+    {
+      "case": "G",
+      "suite": "authoring extraction and installed LSBC toggle",
+      "tests": 3,
+      "status": "PASS"
+    }
+  ],
+  "cleanReleaseOnlyServer": "PASS",
+  "native": {
+    "SMOKE": {
+      "guideActualItemUse": "PASS",
+      "physicalInfusionActualPackets": "PASS",
+      "physicalExtractionActualPackets": "PASS",
+      "jeiLookupAfterExtraction": "PASS",
+      "saveReloadIdleTargetPedestalKnowledge": "PASS",
+      "smokeExtractionRiskOverride": "test world only: 0, restored to shipped 0.2",
+      "status": "PASS",
+      "phase": 19
+    },
+    "IDLE_RESTART": {
+      "restartPersistentTargetPedestalKnowledgeAndConfig": "PASS",
+      "status": "PASS",
+      "phase": 90
+    },
+    "ACTIVE_SAVE": {
+      "guideActualItemUse": "PASS",
+      "saveDuringActiveRitual": "PASS",
+      "status": "PASS",
+      "phase": 91
+    },
+    "ACTIVE_RESTART": {
+      "activeRestartSafelyCancelledPreservingInputs": "PASS",
+      "status": "PASS",
+      "phase": 90
+    },
+    "MULTIPLAYER": {
+      "status": "PASS",
+      "realPlayers": 2,
+      "joins": 2,
+      "cancelOnDisconnect": true,
+      "inventoryConservation": true,
+      "privateKnowledge": true
+    },
+    "MULTIPLAYER_A": {
+      "status": "PASS",
+      "realPlayers": 2,
+      "joins": 2,
+      "cancelOnDisconnect": true,
+      "inventoryConservation": true,
+      "privateKnowledge": true
+    },
+    "MULTIPLAYER_B": {
+      "status": "PASS",
+      "realPlayers": 2,
+      "joins": 2,
+      "cancelOnDisconnect": true,
+      "inventoryConservation": true,
+      "privateKnowledge": true
+    },
+    "STRESS": {
+      "status": "PASS",
+      "altarCount": 20,
+      "startAndScanMillis": 56.2647,
+      "maximumReportedAverageServerTickMillis": 33.706928,
+      "maximumAudibleAmbientLoops": 4,
+      "ambientLoopsAfterCompletion": 0,
+      "observedFramesPerSecond": 56.77777777777778,
+      "scope": "native hidden client, isolated world; not a full modpack benchmark"
+    },
+    "ASPECT": {
+      "error": "",
+      "checks": [
+        "PASS sample 0 viewport 640x360",
+        "PASS sample 1 viewport 640x360",
+        "PASS sample 2 viewport 427x240",
+        "PASS sample 3 viewport 427x240",
+        "PASS sample 4 viewport 427x240",
+        "PASS sample 5 viewport 427x240",
+        "PASS sample 6 viewport 427x240",
+        "PASS sample 7 viewport 427x240",
+        "PASS sample 8 viewport 1720x720",
+        "PASS sample 9 viewport 1720x720",
+        "PASS sample 10 viewport 1147x480",
+        "PASS sample 11 viewport 1147x480",
+        "PASS sample 12 viewport 860x360",
+        "PASS sample 13 viewport 860x360",
+        "PASS sample 14 viewport 574x240",
+        "PASS sample 15 viewport 574x240",
+        "PASS sample 16 viewport 320x240",
+        "PASS sample 17 viewport 320x240",
+        "PASS sample 18 viewport 320x240",
+        "PASS sample 19 viewport 320x240",
+        "PASS sample 20 viewport 320x240",
+        "PASS sample 21 viewport 320x240",
+        "PASS sample 22 viewport 320x240",
+        "PASS sample 23 viewport 320x240"
+      ],
+      "status": "PASS"
+    },
+    "POLISH": {
+      "light": "item emissive curve; no world relight",
+      "infusionNetworkTiming": "PASS",
+      "singleInfusionAmbientLoop": "PASS",
+      "physicalInfusionAndCompletion": "PASS",
+      "distinctReverseExtractionFlow": "PASS",
+      "physicalExtractionBookAndCompletion": "PASS",
+      "ambientCancellationCleanup": "PASS",
+      "cancellationEffectCleanup": "PASS",
+      "catalystItemModel": "PASS",
+      "multipleItemRendererModels": "PASS",
+      "status": "PASS",
+      "phase": 17,
+      "ticks": 819
+    },
+    "PONDER_EN": {
+      "tableAndPedestalRegistered": "PASS",
+      "captionsMatchStoryboard": "PASS",
+      "physicalSetupAndInfusionOutput": "PASS",
+      "replayRestoresScene": "PASS",
+      "language": "en_us",
+      "durationTicks": 725,
+      "status": "PASS"
+    },
+    "PONDER_PT": {
+      "tableAndPedestalRegistered": "PASS",
+      "physicalSetupAndInfusionOutput": "PASS",
+      "replayRestoresScene": "PASS",
+      "language": "pt_br",
+      "durationTicks": 725,
+      "status": "PASS"
+    },
+    "AUTHOR_CLIENT": {
+      "lsbc": true,
+      "jei": true,
+      "unknownCatalogAndBookshelfNoLearning": "PASS",
+      "guideItemRightClick": "PASS",
+      "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+      "partialKnownWordsIdentitySearchAndIndependentKnowledge": "PASS",
+      "guideSearchDoesNotMatchUnknownWords": "PASS",
+      "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+      "bidirectionalEnchantmentRecipeNavigation": "PASS",
+      "identicalCodexGuideBookBounds": "PASS",
+      "codexFifthTabAndSharedGuide": "PASS",
+      "jeiIntegrationToggleDisableRestore": "PASS",
+      "jeiCategoriesAndPublicApiPerPlayerVisibility": "PASS",
+      "jeiCatalystAndUnitConstraints": "PASS",
+      "reloadRemovesRecipesAndRefreshesJei": "PASS",
+      "exampleDatapackReloadAndJeiStructuralRefresh": "PASS",
+      "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+      "guideCatalystAndUnitConstraints": "PASS",
+      "bookDiagramsAndFourGuiScales": "PASS",
+      "createRegistryKnowledgeGuide": "PASS",
+      "createJei": "PASS",
+      "status": "PASS"
+    }
+  },
+  "protectedPrimaryInstanceHashes": {
+    "config/inscribed/recipes.json": true,
+    "config/inscribed/loot.json": true,
+    "config/inscribed-server.toml": true,
+    "mods/lsbc-core-0.22.1.jar": true
+  },
+  "artifact": {
+    "status": "PASS",
+    "productionJavaChanges": [],
+    "canonicalDataFiles": 156,
+    "recipes": 131,
+    "logicalDefinitions": 262,
+    "duplicateArchiveIds": [],
+    "licenseUnchanged": true,
+    "defaultsSemanticallyUnchanged": true,
+    "jar": {
+      "name": "inscribed-0.7.2-rc.1.jar",
+      "bytes": 1020799,
+      "sha256": "2fd597457a755a1000458992c62c96485a7f8cb8d10fbdd2fc8ee9d16b7ca6a5"
+    },
+    "datapack": {
+      "name": "inscribed-vanilla-create-0.7.2-rc.1.zip",
+      "bytes": 131964,
+      "sha256": "221fe2ac6cb24b9d5c5e4f4616b1fd850ae29269a7aecfa737236c582ac9de33"
+    }
+  },
+  "blockerBugs": [],
+  "highBugs": [],
+  "humanFullModpackPlaytest": "recommended; not claimed as automated evidence"
+}

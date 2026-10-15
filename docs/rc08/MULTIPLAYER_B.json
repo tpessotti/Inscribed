@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "realPlayers": 2,
+  "joins": 2,
+  "cancelOnDisconnect": true,
+  "inventoryConservation": true,
+  "privateKnowledge": true
+}

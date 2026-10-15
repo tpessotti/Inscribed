@@ -1,0 +1,1836 @@
+[
+  {
+    "file": "capacity_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "capacity_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "capacity_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "capacity_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "capacity_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "capacity_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "potato_recovery_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "potato_recovery_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "potato_recovery_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "potato_recovery_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "potato_recovery_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "potato_recovery_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "aqua_affinity_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "aqua_affinity_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_5.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 20,
+    "multicount": true
+  },
+  {
+    "file": "bane_of_arthropods_5.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 11,
+    "multicount": true
+  },
+  {
+    "file": "binding_curse_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "binding_curse_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "blast_protection_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "breach_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "breach_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "breach_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "breach_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "breach_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "breach_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "breach_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "breach_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "channeling_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "channeling_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "density_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "density_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "density_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "density_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "density_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "density_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "density_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "density_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "density_5.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 20,
+    "multicount": true
+  },
+  {
+    "file": "density_5.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 11,
+    "multicount": true
+  },
+  {
+    "file": "depth_strider_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "depth_strider_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "depth_strider_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "depth_strider_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "depth_strider_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "depth_strider_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_5.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 20,
+    "multicount": true
+  },
+  {
+    "file": "efficiency_5.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 11,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "feather_falling_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "fire_aspect_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "fire_aspect_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "fire_aspect_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "fire_aspect_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "fire_protection_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "flame_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "flame_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "fortune_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "fortune_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "fortune_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "fortune_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "fortune_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "fortune_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "frost_walker_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "frost_walker_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "frost_walker_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "frost_walker_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "impaling_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "impaling_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "impaling_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "impaling_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "impaling_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "impaling_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "impaling_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "impaling_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "impaling_5.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 20,
+    "multicount": true
+  },
+  {
+    "file": "impaling_5.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 11,
+    "multicount": true
+  },
+  {
+    "file": "infinity_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "infinity_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "knockback_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "knockback_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "knockback_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "knockback_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "looting_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "looting_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "looting_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "looting_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "looting_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "looting_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "loyalty_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "loyalty_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "loyalty_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "loyalty_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "loyalty_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "loyalty_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "luck_of_the_sea_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "luck_of_the_sea_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "luck_of_the_sea_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "luck_of_the_sea_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "luck_of_the_sea_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "luck_of_the_sea_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "lure_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "lure_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "lure_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "lure_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "lure_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "lure_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "mending_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "mending_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "multishot_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "multishot_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "piercing_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "piercing_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "piercing_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "piercing_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "piercing_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "piercing_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "piercing_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "piercing_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "power_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "power_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "power_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "power_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "power_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "power_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "power_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "power_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "power_5.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 20,
+    "multicount": true
+  },
+  {
+    "file": "power_5.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 11,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 10,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 13,
+    "multicount": true
+  },
+  {
+    "file": "projectile_protection_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "protection_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "protection_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "protection_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "protection_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "protection_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "protection_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "protection_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "protection_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "punch_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "punch_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "punch_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "punch_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "quick_charge_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "quick_charge_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "quick_charge_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "quick_charge_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "quick_charge_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "quick_charge_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "respiration_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "respiration_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "respiration_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "respiration_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "respiration_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "respiration_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "riptide_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "riptide_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "riptide_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "riptide_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "riptide_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "riptide_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_5.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 20,
+    "multicount": true
+  },
+  {
+    "file": "sharpness_5.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 11,
+    "multicount": true
+  },
+  {
+    "file": "silk_touch_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "silk_touch_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "smite_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "smite_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "smite_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "smite_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "smite_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "smite_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "smite_4.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 16,
+    "multicount": true
+  },
+  {
+    "file": "smite_4.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 9,
+    "multicount": true
+  },
+  {
+    "file": "smite_5.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 20,
+    "multicount": true
+  },
+  {
+    "file": "smite_5.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 11,
+    "multicount": true
+  },
+  {
+    "file": "soul_speed_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "soul_speed_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "soul_speed_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "soul_speed_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "soul_speed_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "soul_speed_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "sweeping_edge_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "sweeping_edge_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "sweeping_edge_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "sweeping_edge_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "sweeping_edge_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "sweeping_edge_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "swift_sneak_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "swift_sneak_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "swift_sneak_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "swift_sneak_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "swift_sneak_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "swift_sneak_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "thorns_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "thorns_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "thorns_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "thorns_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "thorns_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "thorns_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "unbreaking_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "unbreaking_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "unbreaking_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "unbreaking_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "unbreaking_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "unbreaking_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "vanishing_curse_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "vanishing_curse_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "wind_burst_1.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 4,
+    "multicount": true
+  },
+  {
+    "file": "wind_burst_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "wind_burst_2.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 8,
+    "multicount": true
+  },
+  {
+    "file": "wind_burst_2.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 5,
+    "multicount": true
+  },
+  {
+    "file": "wind_burst_3.json",
+    "mode": "infusion",
+    "entries": 3,
+    "effective": 12,
+    "multicount": true
+  },
+  {
+    "file": "wind_burst_3.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 7,
+    "multicount": true
+  },
+  {
+    "file": "test_sharpness_1.json",
+    "mode": "infusion",
+    "entries": 2,
+    "effective": 3,
+    "multicount": true
+  },
+  {
+    "file": "test_sharpness_1.json",
+    "mode": "extraction",
+    "entries": 2,
+    "effective": 2,
+    "multicount": false
+  }
+]

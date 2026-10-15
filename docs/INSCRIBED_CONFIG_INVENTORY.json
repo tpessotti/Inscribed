@@ -1,0 +1,628 @@
+{
+  "altar.bookshelf_radius": {
+    "field": "BOOKSHELF_RADIUS",
+    "default": 5,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Horizontal ordinary Bookshelf Power scan radius",
+    "deprecated": false,
+    "used": true,
+    "usage": "InscribedConfig.settings(), consumed by AltarScanner/RitualController",
+    "range": [
+      1.0,
+      16.0
+    ]
+  },
+  "altar.chiseled_bookshelf_radius": {
+    "field": "CHISELED_RADIUS",
+    "default": 5,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Horizontal physical library scan radius",
+    "deprecated": false,
+    "used": true,
+    "usage": "InscribedConfig.settings(), consumed by AltarScanner/RitualController",
+    "range": [
+      1.0,
+      16.0
+    ]
+  },
+  "altar.max_pedestals": {
+    "field": "MAX_PEDESTALS",
+    "default": 8,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Maximum populated pedestals; excess rejects the altar",
+    "deprecated": false,
+    "used": true,
+    "usage": "InscribedConfig.settings(), consumed by AltarScanner/RitualController",
+    "range": [
+      1.0,
+      8.0
+    ]
+  },
+  "altar.pedestal_radius": {
+    "field": "PEDESTAL_RADIUS",
+    "default": 4,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Horizontal reagent pedestal scan radius",
+    "deprecated": false,
+    "used": true,
+    "usage": "InscribedConfig.settings(), consumed by AltarScanner/RitualController",
+    "range": [
+      1.0,
+      16.0
+    ]
+  },
+  "altar.vertical_radius": {
+    "field": "VERTICAL_RADIUS",
+    "default": 2,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Vertical scan distance above and below the table",
+    "deprecated": false,
+    "used": true,
+    "usage": "InscribedConfig.settings(), consumed by AltarScanner/RitualController",
+    "range": [
+      0.0,
+      16.0
+    ]
+  },
+  "anvil.restrict_enchantment_changes": {
+    "field": "RESTRICT_ANVIL",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for restrict enchantment changes; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "inspection.analysis_ticks": {
+    "field": "INSPECTION_TICKS",
+    "default": 40,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Inspection analysis duration in ticks",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      1.0,
+      1200.0
+    ]
+  },
+  "inspection.book_cooldown_ticks": {
+    "field": "BOOK_COOLDOWN",
+    "default": 20,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Book inspection cooldown",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      1200.0
+    ]
+  },
+  "inspection.enable_book_fallback": {
+    "field": "ENABLE_BOOK",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Enable Book and Quill inspection notes"
+  },
+  "inspection.enable_lsbc_lens": {
+    "field": "ENABLE_LENS",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Enable optional magnifying-glass inspection"
+  },
+  "inspection.reach": {
+    "field": "INSPECTION_REACH",
+    "default": 4.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Maximum altar inspection distance",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      1.0,
+      16.0
+    ]
+  },
+  "knowledge.inventory_scan_interval_ticks": {
+    "field": "KNOWLEDGE_INTERVAL",
+    "default": 10,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Inventory acquisition polling interval",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      1.0,
+      1200.0
+    ]
+  },
+  "knowledge.jei_recipe_integration": {
+    "field": "JEI_RECIPES",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Enable optional JEI recipe synchronization"
+  },
+  "knowledge.learn_on_inventory_acquisition": {
+    "field": "KNOWLEDGE_INVENTORY",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Discover newly acquired inventory books"
+  },
+  "knowledge.learn_on_pickup": {
+    "field": "KNOWLEDGE_PICKUP",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Discover acquired enchanted books on pickup"
+  },
+  "knowledge.learn_on_successful_extraction": {
+    "field": "KNOWLEDGE_EXTRACTION",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Discover successful extraction results"
+  },
+  "knowledge.learn_on_trade": {
+    "field": "KNOWLEDGE_TRADE",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Discover purchased enchanted books"
+  },
+  "knowledge.lsbc_word_integration": {
+    "field": "LSBC_KNOWLEDGE",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Enable optional KnownWords learning and rendering"
+  },
+  "loot.enable_book_loot_injection": {
+    "field": "BOOK_LOOT",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Allow enchanted-book results from pools"
+  },
+  "loot.enable_catalyst_loot": {
+    "field": "CATALYST_LOOT",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Allow Catalyst results from pools"
+  },
+  "loot.enable_loot_injection": {
+    "field": "LOOT_INJECTION",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Master switch for added exploration rewards"
+  },
+  "loot.loot_multiplier": {
+    "field": "LOOT_MULTIPLIER",
+    "default": 1.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Multiply each pool chance, then clamp effective chance to one",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      10.0
+    ]
+  },
+  "loot.treasure_loot_multiplier": {
+    "field": "TREASURE_LOOT_MULTIPLIER",
+    "default": 1.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Additional chance multiplier for treasure=true pools",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      10.0
+    ]
+  },
+  "ritual.enable_extraction": {
+    "field": "ENABLE_EXTRACTION",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Enable Extraction execution"
+  },
+  "ritual.enable_infusion": {
+    "field": "ENABLE_INFUSION",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Enable Infusion execution"
+  },
+  "ritual.require_shift_right_click": {
+    "field": "REQUIRE_SHIFT",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Require sneaking to start rituals"
+  },
+  "ritual.selection_reach": {
+    "field": "SELECTION_REACH",
+    "default": 8.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Maximum selection validation distance",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      1.0,
+      32.0
+    ]
+  },
+  "ritual.selection_timeout_ticks": {
+    "field": "SELECTION_TIMEOUT",
+    "default": 1200,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Pending infusion selection expiry in server ticks",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      20.0,
+      72000.0
+    ]
+  },
+  "sounds.enabled": {
+    "field": "SOUNDS",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Enable ritual audio"
+  },
+  "sounds.extraction_complete": {
+    "field": "EXTRACTION_COMPLETE_SOUND",
+    "default": "minecraft:item.book.page_turn",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for extraction complete; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.extraction_failure": {
+    "field": "EXTRACTION_FAILURE_SOUND",
+    "default": "minecraft:block.fire.extinguish",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for extraction failure; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.extraction_start": {
+    "field": "EXTRACTION_START_SOUND",
+    "default": "minecraft:block.enchantment_table.use",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for extraction start; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.extraction_transfer": {
+    "field": "EXTRACTION_TRANSFER_SOUND",
+    "default": "minecraft:item.book.page_turn",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for extraction transfer; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.infusion_ambient": {
+    "field": "INFUSION_AMBIENT_SOUND",
+    "default": "minecraft:block.beacon.ambient",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for infusion ambient; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.infusion_complete": {
+    "field": "INFUSION_COMPLETE_SOUND",
+    "default": "minecraft:entity.player.levelup",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for infusion complete; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.infusion_start": {
+    "field": "INFUSION_START_SOUND",
+    "default": "minecraft:block.beacon.activate",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for infusion start; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.invalid_ritual": {
+    "field": "ERROR_SOUND",
+    "default": "minecraft:block.note_block.bass",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for invalid ritual; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.running": {
+    "field": "RUNNING_SOUND",
+    "default": "minecraft:block.amethyst_block.chime",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for running; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.running_interval_ticks": {
+    "field": "SOUND_INTERVAL",
+    "default": 20,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Ticks between running sound events",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      1.0,
+      1200.0
+    ]
+  },
+  "sounds.validation": {
+    "field": "VALIDATION_SOUND",
+    "default": "minecraft:item.book.page_turn",
+    "type": "String",
+    "scope": "SERVER",
+    "purpose": "Registered sound event for validation; unknown ID falls back to vanilla",
+    "deprecated": false,
+    "used": true
+  },
+  "sounds.volume_multiplier": {
+    "field": "SOUND_VOLUME",
+    "default": 1.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Global ritual volume multiplier; zero mutes",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      4.0
+    ]
+  },
+  "visuals.bob_speed": {
+    "field": "BOB_SPEED",
+    "default": 0.08,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Vertical oscillation speed",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      2.0
+    ]
+  },
+  "visuals.dynamic_light": {
+    "field": "DYNAMIC_LIGHT",
+    "default": false,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "purpose": "Full-bright ritual item rendering; no world light",
+    "deprecated": false,
+    "used": true
+  },
+  "visuals.idle_bob_height": {
+    "field": "IDLE_BOB",
+    "default": 0.035,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Idle vertical oscillation amplitude",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "visuals.idle_rotation_degrees_per_tick": {
+    "field": "IDLE_ROTATION",
+    "default": 0.8,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Idle item angular speed",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      30.0
+    ]
+  },
+  "visuals.item_scale": {
+    "field": "ITEM_SCALE",
+    "default": 0.55,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Base table item size",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.05,
+      4.0
+    ]
+  },
+  "visuals.particle_interval_ticks": {
+    "field": "PARTICLE_INTERVAL",
+    "default": 5,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Ticks between particle emissions",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      1.0,
+      100.0
+    ]
+  },
+  "visuals.particles": {
+    "field": "PARTICLES",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Emit ritual particles"
+  },
+  "visuals.pedestal_height": {
+    "field": "PEDESTAL_HEIGHT",
+    "default": 1.15,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Pedestal item rendering height",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      5.0
+    ]
+  },
+  "visuals.pedestal_item_scale": {
+    "field": "PEDESTAL_ITEM_SCALE",
+    "default": 0.8,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Independent pedestal item size",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.05,
+      4.0
+    ]
+  },
+  "visuals.phase_ritual_effects": {
+    "field": "PHASE_VISUALS",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "purpose": "Enable phase motion and directional transfer/fade",
+    "deprecated": false,
+    "used": true
+  },
+  "visuals.render_items": {
+    "field": "RENDER_ITEMS",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "deprecated": false,
+    "used": true,
+    "purpose": "Render stored table and pedestal items"
+  },
+  "visuals.running_bob_height": {
+    "field": "RUNNING_BOB",
+    "default": 0.065,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Active vertical oscillation amplitude",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "visuals.running_rotation_degrees_per_tick": {
+    "field": "RUNNING_ROTATION",
+    "default": 3.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Active item angular speed",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      30.0
+    ]
+  },
+  "visuals.target_height": {
+    "field": "TARGET_HEIGHT",
+    "default": 1.65,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Table target rendering height",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.0,
+      5.0
+    ]
+  },
+  "visuals.target_render_distance": {
+    "field": "RENDER_DISTANCE",
+    "default": 64.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Item rendering cutoff in blocks",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      8.0,
+      256.0
+    ]
+  },
+  "visuals.target_scale": {
+    "field": "TARGET_SCALE",
+    "default": 2.0,
+    "type": "Double",
+    "scope": "SERVER",
+    "purpose": "Table target multiplier applied to item_scale",
+    "deprecated": false,
+    "used": true,
+    "range": [
+      0.1,
+      8.0
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "enchantment": "minecraft:sharpness",
+  "level": 1,
+  "minimum_bookshelf_power": 0,
+  "extraction": {
+    "ingredients": [],
+    "duration_ticks": 12,
+    "empty_books_required": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "recipes": 131,
+  "pools": 13,
+  "verifiedLootTables": 24,
+  "tiers": {
+    "TIER_2_INTERMEDIATE": 47,
+    "TIER_3_ADVANCED": 45,
+    "TIER_1_BASIC": 21,
+    "TIER_5_LATE_GAME": 6,
+    "TIER_4_TREASURE": 12
+  },
+  "warnings": [],
+  "extractionFailurePreserved": true
+}

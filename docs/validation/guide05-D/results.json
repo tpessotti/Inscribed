@@ -1,0 +1,18 @@
+{
+  "lsbc": true,
+  "jei": true,
+  "unknownCatalogAndBookshelfNoLearning": "PASS",
+  "guideItemRightClick": "PASS",
+  "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+  "partialKnownWordsIdentitySearchAndIndependentKnowledge": "PASS",
+  "guideSearchDoesNotMatchUnknownWords": "PASS",
+  "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+  "bidirectionalEnchantmentRecipeNavigation": "PASS",
+  "codexFifthTabAndSharedGuide": "PASS",
+  "jeiCategoriesAndPublicApiPerPlayerVisibility": "PASS",
+  "jeiCatalystAndUnitConstraints": "PASS",
+  "reloadRemovesRecipesAndRefreshesJei": "PASS",
+  "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+  "guideCatalystAndUnitConstraints": "PASS",
+  "status": "PASS"
+}

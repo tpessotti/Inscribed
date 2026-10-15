@@ -1,0 +1,160 @@
+{
+  "baseline": {
+    "version": "0.6.1",
+    "junit": 4,
+    "gameTests": 88
+  },
+  "matrix": [
+    {
+      "case": "A",
+      "mods": "Inscribed",
+      "server": "PASS",
+      "tests": 100,
+      "client": "PASS"
+    },
+    {
+      "case": "B",
+      "mods": "+ JEI",
+      "server": "PASS",
+      "tests": 100,
+      "client": "PASS"
+    },
+    {
+      "case": "C",
+      "mods": "+ LSBC",
+      "server": "PASS",
+      "tests": 100,
+      "client": "PASS"
+    },
+    {
+      "case": "D",
+      "mods": "+ LSBC + JEI",
+      "server": "PASS",
+      "tests": 100,
+      "client": "PASS"
+    },
+    {
+      "case": "E",
+      "mods": "+ Create",
+      "server": "PASS",
+      "tests": 100,
+      "client": "PASS"
+    },
+    {
+      "case": "F",
+      "mods": "+ Create + JEI",
+      "server": "PASS",
+      "tests": 100,
+      "client": "PASS"
+    },
+    {
+      "case": "G",
+      "mods": "+ Create + LSBC + JEI",
+      "server": "PASS",
+      "tests": 100,
+      "client": "PASS"
+    }
+  ],
+  "realMultiplayer": {
+    "status": "PASS",
+    "realPlayers": 2,
+    "joins": 2,
+    "cancelOnDisconnect": true,
+    "inventoryConservation": true,
+    "privateKnowledge": true
+  },
+  "aspects": {
+    "checks": [
+      "PASS sample 0 viewport 640x360",
+      "PASS sample 1 viewport 640x360",
+      "PASS sample 2 viewport 427x240",
+      "PASS sample 3 viewport 427x240",
+      "PASS sample 4 viewport 427x240",
+      "PASS sample 5 viewport 427x240",
+      "PASS sample 6 viewport 427x240",
+      "PASS sample 7 viewport 427x240",
+      "PASS sample 8 viewport 1720x720",
+      "PASS sample 9 viewport 1720x720",
+      "PASS sample 10 viewport 1147x480",
+      "PASS sample 11 viewport 1147x480",
+      "PASS sample 12 viewport 860x360",
+      "PASS sample 13 viewport 860x360",
+      "PASS sample 14 viewport 574x240",
+      "PASS sample 15 viewport 574x240",
+      "PASS sample 16 viewport 320x240",
+      "PASS sample 17 viewport 320x240",
+      "PASS sample 18 viewport 320x240",
+      "PASS sample 19 viewport 320x240",
+      "PASS sample 20 viewport 320x240",
+      "PASS sample 21 viewport 320x240",
+      "PASS sample 22 viewport 320x240",
+      "PASS sample 23 viewport 320x240"
+    ],
+    "status": "PASS",
+    "error": ""
+  },
+  "nativePolish": {
+    "light": "item emissive curve; no world relight",
+    "infusionNetworkTiming": "PASS",
+    "singleInfusionAmbientLoop": "PASS",
+    "physicalInfusionAndCompletion": "PASS",
+    "distinctReverseExtractionFlow": "PASS",
+    "physicalExtractionBookAndCompletion": "PASS",
+    "ambientCancellationCleanup": "PASS",
+    "cancellationEffectCleanup": "PASS",
+    "catalystItemModel": "PASS",
+    "multipleItemRendererModels": "PASS",
+    "status": "PASS",
+    "phase": 17,
+    "ticks": 816
+  },
+  "providerMigration": [
+    {
+      "error": "",
+      "status": "PASS",
+      "providerPresent": false,
+      "savedKnowledgeRetained": true
+    },
+    {
+      "status": "PASS",
+      "error": "",
+      "savedKnowledgeRetained": true,
+      "providerPresent": true
+    }
+  ],
+  "authoring": [
+    {
+      "log": "validation-author07.log",
+      "status": "PASS",
+      "tests": 3
+    },
+    {
+      "log": "validation-author07-create.log",
+      "status": "PASS",
+      "tests": 3
+    }
+  ],
+  "currentVersion": "0.7.0",
+  "portugueseNativeClient": {
+    "lsbc": false,
+    "jei": true,
+    "unknownCatalogAndBookshelfNoLearning": "PASS",
+    "guideItemRightClick": "PASS",
+    "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+    "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+    "bidirectionalEnchantmentRecipeNavigation": "PASS",
+    "jeiCategoriesAndPublicApiPerPlayerVisibility": "PASS",
+    "jeiCatalystAndUnitConstraints": "PASS",
+    "reloadRemovesRecipesAndRefreshesJei": "PASS",
+    "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+    "guideCatalystAndUnitConstraints": "PASS",
+    "bookDiagramsAndFourGuiScales": "PASS",
+    "status": "PASS"
+  },
+  "finalCleanBuild": {
+    "status": "PASS",
+    "junitPassed": 4,
+    "gameTestsWithoutOptional": 100,
+    "gameTestsAllOptional": 100
+  }
+}

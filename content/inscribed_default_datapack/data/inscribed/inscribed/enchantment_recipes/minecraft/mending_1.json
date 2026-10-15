@@ -1,0 +1,53 @@
+{
+  "enchantment": "minecraft:mending",
+  "level": 1,
+  "minimum_bookshelf_power": 26,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:echo_shard"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 100,
+    "book_consumption_chance": 0.5
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:echo_shard"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "duration_ticks": 100,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_4_TREASURE"
+}

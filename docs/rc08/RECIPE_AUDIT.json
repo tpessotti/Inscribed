@@ -1,0 +1,1324 @@
+{
+  "status": "PASS",
+  "recipeFiles": 131,
+  "ritualDefinitions": 262,
+  "vanillaEnchantments": 42,
+  "createEnchantments": 2,
+  "pools": 13,
+  "lootTables": 24,
+  "intentionalExclusions": [],
+  "intentionalAlternativeRecipes": [],
+  "errors": [],
+  "coverage": [
+    {
+      "source": "Create",
+      "enchantment": "create:capacity",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:create/capacity_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/create/capacity_1.json"
+    },
+    {
+      "source": "Create",
+      "enchantment": "create:capacity",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:create/capacity_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/create/capacity_2.json"
+    },
+    {
+      "source": "Create",
+      "enchantment": "create:capacity",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:create/capacity_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/create/capacity_3.json"
+    },
+    {
+      "source": "Create",
+      "enchantment": "create:potato_recovery",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:create/potato_recovery_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/create/potato_recovery_1.json"
+    },
+    {
+      "source": "Create",
+      "enchantment": "create:potato_recovery",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:create/potato_recovery_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/create/potato_recovery_2.json"
+    },
+    {
+      "source": "Create",
+      "enchantment": "create:potato_recovery",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:create/potato_recovery_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/create/potato_recovery_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:aqua_affinity",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/aqua_affinity_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/aqua_affinity_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:bane_of_arthropods",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/bane_of_arthropods_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/bane_of_arthropods_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:bane_of_arthropods",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/bane_of_arthropods_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/bane_of_arthropods_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:bane_of_arthropods",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/bane_of_arthropods_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/bane_of_arthropods_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:bane_of_arthropods",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/bane_of_arthropods_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/bane_of_arthropods_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:bane_of_arthropods",
+      "level": 5,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/bane_of_arthropods_5",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/bane_of_arthropods_5.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:binding_curse",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/binding_curse_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/binding_curse_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:blast_protection",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/blast_protection_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/blast_protection_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:blast_protection",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/blast_protection_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/blast_protection_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:blast_protection",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/blast_protection_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/blast_protection_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:blast_protection",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/blast_protection_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/blast_protection_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:breach",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/breach_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/breach_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:breach",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/breach_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/breach_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:breach",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/breach_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/breach_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:breach",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/breach_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/breach_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:channeling",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/channeling_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/channeling_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:density",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/density_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/density_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:density",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/density_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/density_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:density",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/density_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/density_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:density",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/density_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/density_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:density",
+      "level": 5,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/density_5",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/density_5.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:depth_strider",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/depth_strider_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/depth_strider_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:depth_strider",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/depth_strider_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/depth_strider_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:depth_strider",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/depth_strider_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/depth_strider_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:efficiency",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/efficiency_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/efficiency_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:efficiency",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/efficiency_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/efficiency_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:efficiency",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/efficiency_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/efficiency_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:efficiency",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/efficiency_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/efficiency_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:efficiency",
+      "level": 5,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/efficiency_5",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/efficiency_5.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:feather_falling",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/feather_falling_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/feather_falling_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:feather_falling",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/feather_falling_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/feather_falling_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:feather_falling",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/feather_falling_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/feather_falling_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:feather_falling",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/feather_falling_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/feather_falling_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fire_aspect",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fire_aspect_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fire_aspect_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fire_aspect",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fire_aspect_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fire_aspect_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fire_protection",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fire_protection_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fire_protection_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fire_protection",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fire_protection_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fire_protection_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fire_protection",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fire_protection_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fire_protection_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fire_protection",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fire_protection_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fire_protection_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:flame",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/flame_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/flame_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fortune",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fortune_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fortune_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fortune",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fortune_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fortune_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:fortune",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/fortune_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/fortune_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:frost_walker",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/frost_walker_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/frost_walker_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:frost_walker",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/frost_walker_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/frost_walker_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:impaling",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/impaling_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/impaling_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:impaling",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/impaling_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/impaling_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:impaling",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/impaling_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/impaling_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:impaling",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/impaling_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/impaling_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:impaling",
+      "level": 5,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/impaling_5",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/impaling_5.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:infinity",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/infinity_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/infinity_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:knockback",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/knockback_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/knockback_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:knockback",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/knockback_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/knockback_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:looting",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/looting_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/looting_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:looting",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/looting_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/looting_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:looting",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/looting_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/looting_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:loyalty",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/loyalty_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/loyalty_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:loyalty",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/loyalty_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/loyalty_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:loyalty",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/loyalty_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/loyalty_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:luck_of_the_sea",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/luck_of_the_sea_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/luck_of_the_sea_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:luck_of_the_sea",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/luck_of_the_sea_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/luck_of_the_sea_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:luck_of_the_sea",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/luck_of_the_sea_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/luck_of_the_sea_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:lure",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/lure_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/lure_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:lure",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/lure_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/lure_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:lure",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/lure_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/lure_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:mending",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/mending_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/mending_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:multishot",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/multishot_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/multishot_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:piercing",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/piercing_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/piercing_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:piercing",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/piercing_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/piercing_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:piercing",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/piercing_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/piercing_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:piercing",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/piercing_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/piercing_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:power",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/power_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/power_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:power",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/power_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/power_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:power",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/power_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/power_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:power",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/power_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/power_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:power",
+      "level": 5,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/power_5",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/power_5.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:projectile_protection",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/projectile_protection_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/projectile_protection_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:projectile_protection",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/projectile_protection_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/projectile_protection_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:projectile_protection",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/projectile_protection_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/projectile_protection_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:projectile_protection",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/projectile_protection_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/projectile_protection_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:protection",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/protection_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/protection_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:protection",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/protection_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/protection_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:protection",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/protection_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/protection_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:protection",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/protection_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/protection_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:punch",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/punch_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/punch_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:punch",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/punch_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/punch_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:quick_charge",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/quick_charge_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/quick_charge_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:quick_charge",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/quick_charge_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/quick_charge_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:quick_charge",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/quick_charge_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/quick_charge_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:respiration",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/respiration_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/respiration_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:respiration",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/respiration_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/respiration_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:respiration",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/respiration_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/respiration_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:riptide",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/riptide_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/riptide_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:riptide",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/riptide_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/riptide_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:riptide",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/riptide_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/riptide_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sharpness",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:test_sharpness_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/test_sharpness_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sharpness",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/sharpness_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/sharpness_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sharpness",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/sharpness_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/sharpness_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sharpness",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/sharpness_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/sharpness_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sharpness",
+      "level": 5,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/sharpness_5",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/sharpness_5.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:silk_touch",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/silk_touch_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/silk_touch_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:smite",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/smite_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/smite_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:smite",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/smite_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/smite_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:smite",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/smite_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/smite_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:smite",
+      "level": 4,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/smite_4",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/smite_4.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:smite",
+      "level": 5,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/smite_5",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/smite_5.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:soul_speed",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/soul_speed_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/soul_speed_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:soul_speed",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/soul_speed_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/soul_speed_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:soul_speed",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/soul_speed_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/soul_speed_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sweeping_edge",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/sweeping_edge_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/sweeping_edge_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sweeping_edge",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/sweeping_edge_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/sweeping_edge_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:sweeping_edge",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/sweeping_edge_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/sweeping_edge_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:swift_sneak",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/swift_sneak_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/swift_sneak_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:swift_sneak",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/swift_sneak_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/swift_sneak_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:swift_sneak",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/swift_sneak_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/swift_sneak_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:thorns",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/thorns_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/thorns_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:thorns",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/thorns_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/thorns_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:thorns",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/thorns_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/thorns_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:unbreaking",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/unbreaking_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/unbreaking_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:unbreaking",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/unbreaking_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/unbreaking_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:unbreaking",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/unbreaking_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/unbreaking_3.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:vanishing_curse",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/vanishing_curse_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/vanishing_curse_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:wind_burst",
+      "level": 1,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/wind_burst_1",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/wind_burst_1.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:wind_burst",
+      "level": 2,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/wind_burst_2",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/wind_burst_2.json"
+    },
+    {
+      "source": "Vanilla",
+      "enchantment": "minecraft:wind_burst",
+      "level": 3,
+      "infusion": true,
+      "extraction": true,
+      "recipeId": "inscribed:minecraft/wind_burst_3",
+      "status": "PASS",
+      "file": "content/inscribed_default_datapack/data/inscribed/inscribed/enchantment_recipes/minecraft/wind_burst_3.json"
+    }
+  ]
+}

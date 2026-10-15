@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "version": "0.7.2-rc.1",
+  "steps": [
+    {
+      "step": "rc_recipe_audit.py",
+      "status": "PASS",
+      "output": "{\n  \"status\": \"PASS\",\n  \"recipeFiles\": 131,\n  \"ritualDefinitions\": 262,\n  \"vanillaEnchantments\": 42,\n  \"createEnchantments\": 2,\n  \"pools\": 13,\n  \"lootTables\": 24,\n  \"intentionalExclusions\": [],\n  \"intentionalAlternativeRecipes\": [],\n  \"errors\": []\n}",
+      "error": ""
+    },
+    {
+      "step": "rc_gate_negative_tests.py",
+      "status": "PASS",
+      "output": "PASS: 9 audit rejection tests",
+      "error": ""
+    },
+    {
+      "step": "rc_artifact_audit.py",
+      "status": "PASS",
+      "output": "{\n  \"status\": \"PASS\",\n  \"productionJavaChanges\": [],\n  \"canonicalDataFiles\": 156,\n  \"recipes\": 131,\n  \"logicalDefinitions\": 262,\n  \"duplicateArchiveIds\": [],\n  \"licenseUnchanged\": true,\n  \"defaultsSemanticallyUnchanged\": true,\n  \"jar\": {\n    \"name\": \"inscribed-0.7.2-rc.1.jar\",\n    \"bytes\": 1020799,\n    \"sha256\": \"2fd597457a755a1000458992c62c96485a7f8cb8d10fbdd2fc8ee9d16b7ca6a5\"\n  },\n  \"datapack\": {\n    \"name\": \"inscribed-vanilla-create-0.7.2-rc.1.zip\",\n    \"bytes\": 131964,\n    \"sha256\": \"221fe2ac6cb24b9d5c5e4f4616b1fd850ae29269a7aecfa737236c582ac9de33\"\n  }\n}",
+      "error": ""
+    },
+    {
+      "step": "rc_evidence.py",
+      "status": "PASS",
+      "output": "PASS: seven dedicated/native cases, 700 matrix GameTests, 15 authoring GameTests, 4 JUnit, lifecycle/multiplayer/stress/assets/Ponder",
+      "error": ""
+    },
+    {
+      "step": "release08_audit.py",
+      "status": "PASS",
+      "output": "{\n  \"status\": \"PASS\",\n  \"validatedContentFiles\": 155,\n  \"translationKeys\": 98,\n  \"logoDimensions\": [\n    1254,\n    1254\n  ],\n  \"publicDocumentsChecked\": 59,\n  \"validatedPngs\": 1,\n  \"debugMarkers\": [],\n  \"jar\": {\n    \"sha256\": \"2fd597457a755a1000458992c62c96485a7f8cb8d10fbdd2fc8ee9d16b7ca6a5\",\n    \"bytes\": 1020799,\n    \"entries\": 349,\n    \"licenseIncluded\": true\n  },\n  \"errors\": []\n}",
+      "error": ""
+    }
+  ],
+  "publication": "not performed",
+  "stablePromotion": "after review/approval only"
+}

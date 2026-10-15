@@ -1,0 +1,10 @@
+{
+  "guideActualItemUse": "PASS",
+  "physicalInfusionActualPackets": "PASS",
+  "physicalExtractionActualPackets": "PASS",
+  "jeiLookupAfterExtraction": "PASS",
+  "saveReloadIdleTargetPedestalKnowledge": "PASS",
+  "smokeExtractionRiskOverride": "test world only: 0, restored to shipped 0.2",
+  "status": "PASS",
+  "phase": 19
+}

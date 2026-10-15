@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "loot_tables": [
+    "minecraft:chests/abandoned_mineshaft"
+  ],
+  "chance": 0.2,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "require_recipe": true,
+  "theme": "MINING",
+  "structure_tier": 2,
+  "treasure": false,
+  "entries": [
+    {
+      "enchantment": "minecraft:efficiency",
+      "min_level": 1,
+      "max_level": 3,
+      "weight": 8
+    },
+    {
+      "enchantment": "minecraft:fortune",
+      "min_level": 1,
+      "max_level": 1,
+      "weight": 3
+    },
+    {
+      "enchantment": "minecraft:unbreaking",
+      "min_level": 1,
+      "max_level": 2,
+      "weight": 6
+    }
+  ]
+}

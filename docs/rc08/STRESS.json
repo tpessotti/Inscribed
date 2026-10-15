@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "altarCount": 20,
+  "startAndScanMillis": 56.2647,
+  "maximumReportedAverageServerTickMillis": 33.706928,
+  "maximumAudibleAmbientLoops": 4,
+  "ambientLoopsAfterCompletion": 0,
+  "observedFramesPerSecond": 56.77777777777778,
+  "scope": "native hidden client, isolated world; not a full modpack benchmark"
+}

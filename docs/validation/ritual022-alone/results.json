@@ -1,0 +1,29 @@
+{
+  "configurationCatalogExported": "PASS",
+  "targetAttachmentAndVanillaRenderer": "PASS",
+  "physicalShiftClickAndRunningSync": "PASS",
+  "serverCommitAndResultSync": "PASS",
+  "physicalRetrieval": "PASS",
+  "bookConsumptionAndNoDuplicate": "PASS",
+  "extractionPhysicalClickNoSelectionScreen": "PASS",
+  "extractionIngredientsSelectFortune": "PASS",
+  "extractionPhysicalBooksAndClientResult": "PASS",
+  "status": "PASS",
+  "phase": 85,
+  "ticks": 406,
+  "captures": [
+    "01-target-and-vanilla-book.png",
+    "02-prepared-altar.png",
+    "03-ritual-start.png",
+    "04-knowledge-transfer.png",
+    "05-enchanted-result.png",
+    "09-extraction-no-screen.png",
+    "10-extraction-running.png",
+    "11-extraction-result.png"
+  ],
+  "mods": [
+    "minecraft",
+    "inscribed",
+    "neoforge"
+  ]
+}

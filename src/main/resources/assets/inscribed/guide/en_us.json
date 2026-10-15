@@ -1,0 +1,47 @@
+[
+  {
+    "id": "home",
+    "title": "Inscribed",
+    "body": "Strong rituals need stronger libraries, rarer reagents and sometimes an Enchantment Catalyst. Finding a powerful book early does not replace those requirements."
+  },
+  {
+    "id": "altar",
+    "title": "Altar",
+    "body": "Place the target on an enchanting table. Insert ingredients in nearby infusion pedestals. Put reference enchanted books and empty books in chiseled bookshelves. Shift and right-click the table with an empty hand to start. Scan with a lens, or book and quill when LSBC is absent."
+  },
+  {
+    "id": "infusion",
+    "title": "Infusion",
+    "body": "A physical enchanted book authorizes its enchantment at the required level or above, unless the recipe requests an exact level. Supply recipe ingredients and enough bookshelf power. If multiple infusions match, choose one in the selection screen. The configured chance may consume the reference book."
+  },
+  {
+    "id": "extraction",
+    "title": "Extraction",
+    "body": "Pedestal ingredients select which enchantment is extracted. There is no extraction selection screen. Supply empty books in chiseled bookshelves and sufficient power. If multiple extractions match, adjust ingredients. Failure consumes ingredients and empty books and removes the selected enchantment without producing a book. Other enchantments remain."
+  },
+  {
+    "id": "library",
+    "title": "Physical library",
+    "body": "Chiseled bookshelves hold reference enchanted books and empty books. These must physically remain in place throughout the ritual. Seeing a book in a shelf or somebody else's container does not teach its enchantments."
+  },
+  {
+    "id": "pedestals",
+    "title": "Pedestals",
+    "body": "Each pedestal holds exactly one item; at most eight pedestal ingredients per ritual. Use separate pedestals for repeated materials. Retrieve and split legacy stacks. Enchantment Catalyst is used by stronger rituals and is found rarely in intermediate structures, more often in dangerous treasure sources. Late-game rituals also need advanced materials. Basic rituals do not require Catalyst."
+  },
+  {
+    "id": "power",
+    "title": "Bookshelf power",
+    "body": "Stronger rituals need stronger libraries. Expand ordinary bookshelf power and inspect the altar before risking a rare reference book. Chiseled shelves provide physical knowledge rather than power."
+  },
+  {
+    "id": "recipes",
+    "title": "Recipe discovery",
+    "body": "Look for aquatic knowledge in ocean exploration, tool knowledge underground, combat knowledge in hostile structures, and rarer knowledge in ancient cities, bastions and end cities. Create knowledge also appears in configured mineshaft/stronghold pools. Books may be consumed during infusion, so duplicate books remain valuable. Extraction selectors remain deterministic, with the existing 20% failure risk shown per recipe. Modpacks can change power, reagents, risk and distribution in config/inscribed/recipes.json and config/inscribed/loot.json; /inscribed reload applies them."
+  },
+  {
+    "id": "anvil",
+    "title": "Anvil",
+    "body": "By default the anvil must preserve the target's enchantments. Repair and renaming remain possible; transferring or combining enchantments is blocked. Modpacks can disable this rule in inscribed-server.toml."
+  }
+]

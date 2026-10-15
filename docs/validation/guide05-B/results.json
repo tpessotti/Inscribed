@@ -1,0 +1,16 @@
+{
+  "lsbc": false,
+  "jei": true,
+  "savedKnowledgeAfterRemovingLSBC": "PASS",
+  "unknownCatalogAndBookshelfNoLearning": "PASS",
+  "guideItemRightClick": "PASS",
+  "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+  "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+  "bidirectionalEnchantmentRecipeNavigation": "PASS",
+  "jeiCategoriesAndPublicApiPerPlayerVisibility": "PASS",
+  "jeiCatalystAndUnitConstraints": "PASS",
+  "reloadRemovesRecipesAndRefreshesJei": "PASS",
+  "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+  "guideCatalystAndUnitConstraints": "PASS",
+  "status": "PASS"
+}

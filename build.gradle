@@ -1,0 +1,228 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = project.mod_version
+group = 'dev.inscribed'
+base { archivesName = 'inscribed' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+repositories { mavenCentral() }
+sourceSets {
+    gameTest {
+        compileClasspath += sourceSets.main.output + configurations.compileClasspath
+        runtimeClasspath += sourceSets.main.output
+    }
+    releaseOnly { }
+    releaseQa {
+        java.srcDir layout.buildDirectory.dir('generated/releaseQa/java')
+        resources.srcDir 'src/gameTest/resources'
+        compileClasspath += sourceSets.main.output + configurations.compileClasspath
+    }
+}
+neoForge {
+    version = project.neo_version
+    addModdingDependenciesTo sourceSets.gameTest
+    addModdingDependenciesTo sourceSets.releaseOnly
+    addModdingDependenciesTo sourceSets.releaseQa
+    mods {
+        inscribed { sourceSet sourceSets.main; sourceSet sourceSets.gameTest }
+        inscribed_qa { sourceSet sourceSets.releaseQa }
+    }
+    runs {
+        configureEach {
+            loadedMods.set(provider { name == 'releaseServer' ? [] : name.startsWith('release') ? [project.neoForge.mods.inscribed_qa] : [project.neoForge.mods.inscribed] })
+        }
+        client { client(); gameDirectory = file('runs/client') }
+        server { server(); gameDirectory = file('runs/server'); programArgument '--nogui' }
+        gameTestServer {
+            type = 'gameTestServer'; sourceSet = sourceSets.gameTest
+            gameDirectory = file('runs/gameTest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'inscribed'
+        }
+        combinedGameTestServer {
+            type = 'gameTestServer'; sourceSet = sourceSets.gameTest
+            gameDirectory = file('runs/combinedGameTest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'inscribed'
+            systemProperty 'inscribed.requireLsbc', 'true'
+        }
+        createGameTestServer {
+            type = 'gameTestServer'; sourceSet = sourceSets.gameTest
+            gameDirectory = file('runs/createGameTest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'inscribed'
+            systemProperty 'inscribed.requireCreate', 'true'
+            jvmArgument '-Xmx4G'
+        }
+        qaGameTestServer {
+            type = 'gameTestServer'; sourceSet = sourceSets.gameTest
+            gameDirectory = file(project.findProperty('qaRunDirectory') ?: 'runs/qa06/A')
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.findProperty('qaNamespaces') ?: 'inscribed'
+            systemProperty 'inscribed.requireCreate', project.findProperty('qaCreate') ?: 'false'
+            systemProperty 'inscribed.requireLsbc', project.findProperty('qaLsbc') ?: 'false'
+            jvmArgument '-Xmx4G'
+        }
+        qaMultiplayerServer {
+            server(); sourceSet = sourceSets.gameTest
+            gameDirectory = file('runs/qaMultiplayer/server')
+            programArgument '--nogui'
+            systemProperty 'inscribed.qaMultiplayerServer', 'true'
+            jvmArgument '-Xmx2G'
+        }
+        qaMultiplayerClient {
+            client(); sourceSet = sourceSets.gameTest
+            gameDirectory = file(project.findProperty('multiplayerDirectory') ?: 'runs/qaMultiplayer/clientA')
+            systemProperty 'inscribed.qaMultiplayerRole', project.findProperty('multiplayerRole') ?: 'A'
+            programArguments.addAll('--username', 'InscribedQA_' + (project.findProperty('multiplayerRole') ?: 'A'), '--quickPlayMultiplayer', '127.0.0.1:25773', '--width', '960', '--height', '640')
+            jvmArgument '-Xmx2G'
+        }
+        validationClient {
+            client(); sourceSet = sourceSets.gameTest
+            gameDirectory = file(project.findProperty('clientRunDirectory') ?: 'runs/validationClient')
+            systemProperty 'inscribed.clientValidation', 'true'
+            systemProperty 'inscribed.requireClientPersistence', project.findProperty('requireClientPersistence') ?: 'false'
+            systemProperty 'inscribed.requireLsbc', project.findProperty('requireClientLsbc') ?: 'false'
+            systemProperty 'inscribed.validateLens', project.findProperty('validateLens') ?: 'false'
+            systemProperty 'inscribed.validateBook', project.findProperty('validateBook') ?: 'false'
+            systemProperty 'inscribed.validateRitual02', project.findProperty('validateRitual02') ?: 'false'
+            systemProperty 'inscribed.validateGuide', project.findProperty('validateGuide') ?: 'false'
+            systemProperty 'inscribed.validatePolish', project.findProperty('validatePolish') ?: 'false'
+            systemProperty 'inscribed.validateAspect', project.findProperty('validateAspect') ?: 'false'
+            systemProperty 'inscribed.rcAuthoring', project.findProperty('rcAuthoring') ?: 'false'
+            systemProperty 'inscribed.validateMigration', project.findProperty('validateMigration') ?: 'false'
+            systemProperty 'inscribed.validatePonder', project.findProperty('validatePonder') ?: 'false'
+            systemProperty 'inscribed.guidePersistence', project.findProperty('guidePersistence') ?: 'false'
+            programArguments.addAll('--width', '1280', '--height', '960')
+            if (project.findProperty('validateGuide') != 'true' && project.findProperty('validatePolish') != 'true') programArguments.addAll('--quickPlaySingleplayer', 'InscribedValidation')
+            jvmArgument '-Xmx3G'
+        }
+        releaseGameTestServer {
+            type = 'gameTestServer'; sourceSet = sourceSets.releaseQa
+            gameDirectory = file(project.findProperty('rcRunDirectory') ?: 'runs/rc08/A-server')
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.findProperty('qaNamespaces') ?: 'inscribed'
+            systemProperty 'inscribed.requireCreate', project.findProperty('qaCreate') ?: 'false'
+            systemProperty 'inscribed.requireLsbc', project.findProperty('qaLsbc') ?: 'false'
+            jvmArgument '-Xmx4G'
+        }
+        releaseClient {
+            client(); sourceSet = sourceSets.releaseQa
+            gameDirectory = file(project.findProperty('rcRunDirectory') ?: 'runs/rc08/A-client')
+            systemProperty 'inscribed.clientValidation', 'true'
+            systemProperty 'inscribed.validateGuide', project.findProperty('validateGuide') ?: 'false'
+            systemProperty 'inscribed.validatePolish', project.findProperty('validatePolish') ?: 'false'
+            systemProperty 'inscribed.validatePonder', project.findProperty('validatePonder') ?: 'false'
+            systemProperty 'inscribed.guidePersistence', project.findProperty('guidePersistence') ?: 'false'
+            systemProperty 'inscribed.rcSmoke', project.findProperty('rcSmoke') ?: 'false'
+            systemProperty 'inscribed.rcSmokePersistence', project.findProperty('rcSmokePersistence') ?: 'false'
+            systemProperty 'inscribed.rcStress', project.findProperty('rcStress') ?: 'false'
+            systemProperty 'inscribed.validateAspect', project.findProperty('validateAspect') ?: 'false'
+            systemProperty 'inscribed.rcAuthoring', project.findProperty('rcAuthoring') ?: 'false'
+            systemProperty 'inscribed.rcActiveRestart', project.findProperty('rcActiveRestart') ?: 'false'
+            programArguments.addAll('--width','1280','--height','960')
+            jvmArgument '-Xmx3G'
+        }
+        releaseServer {
+            server(); sourceSet = sourceSets.releaseOnly
+            gameDirectory = file(project.findProperty('rcRunDirectory') ?: 'runs/rc08/clean-server')
+            loadedMods.set([])
+            programArgument '--nogui'
+            jvmArgument '-Xmx3G'
+        }
+        releaseMultiplayerServer {
+            server(); sourceSet = sourceSets.releaseQa
+            gameDirectory = file('runs/rc08/multiplayer/server')
+            programArgument '--nogui'
+            systemProperty 'inscribed.qaMultiplayerServer', 'true'
+            jvmArgument '-Xmx2G'
+        }
+        releaseMultiplayerClient {
+            client(); sourceSet = sourceSets.releaseQa
+            gameDirectory = file(project.findProperty('rcRunDirectory') ?: 'runs/rc08/multiplayer/clientA')
+            systemProperty 'inscribed.qaMultiplayerRole', project.findProperty('multiplayerRole') ?: 'A'
+            programArguments.addAll('--username', 'InscribedQA_' + (project.findProperty('multiplayerRole') ?: 'A'), '--quickPlayMultiplayer', '127.0.0.1:25773', '--width','960','--height','640')
+            jvmArgument '-Xmx2G'
+        }
+    }
+    unitTest { enable(); testedMod = mods.inscribed; loadedMods.set([mods.inscribed]) }
+}
+dependencies {
+    compileOnly files(project.findProperty('ponderJar') ?: 'libs/ponder-neoforge-1.0.82+mc1.21.1.jar')
+    compileOnly files(project.findProperty('jeiJar') ?: (file('libs/jei-1.21.1-neoforge-19.57.0.451.jar').exists() ? 'libs/jei-1.21.1-neoforge-19.57.0.451.jar' : '../../../mods/jei-1.21.1-neoforge-19.57.0.451.jar'))
+    compileOnly files(project.findProperty('lsbcJar') ?: (file('libs/lsbc-core-0.22.1.jar').exists() ? 'libs/lsbc-core-0.22.1.jar' : '../lsbc_core/build/libs/lsbc-core-0.22.1.jar'))
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('test', Test) { useJUnitPlatform() }
+tasks.named('processResources', ProcessResources) {
+    dependsOn 'generateDefaultConfigs'
+    from('content/inscribed_default_datapack') { include 'data/**' }
+    from(layout.buildDirectory.dir('generated/defaultConfigs'))
+    inputs.property 'mod_version', project.mod_version
+    filesMatching('META-INF/neoforge.mods.toml') { expand mod_version: project.mod_version }
+}
+
+tasks.register('generateDefaultConfigs') {
+    inputs.dir 'content/inscribed_default_datapack'
+    outputs.dir layout.buildDirectory.dir('generated/defaultConfigs')
+    doLast {
+        def root = file('content/inscribed_default_datapack/data')
+        def parser = new groovy.json.JsonSlurper()
+        def ritual = new TreeMap(), crafting = new TreeMap(), pools = new TreeMap()
+        root.eachFileRecurse(groovy.io.FileType.FILES) { entry ->
+            if (!entry.name.endsWith('.json')) return
+            def path = root.toPath().relativize(entry.toPath()).toString().replace('\\','/')
+            def parts = path.split('/')
+            if (path.contains('/inscribed/enchantment_recipes/')) {
+                def id = parts[0] + ':' + path.split('/inscribed/enchantment_recipes/')[1][0..-6]
+                ritual[id] = [enabled:true] + parser.parse(entry)
+            } else if (path.contains('/inscribed/loot_injections/')) {
+                def id = parts[0] + ':' + path.split('/inscribed/loot_injections/')[1][0..-6]
+                pools[id] = parser.parse(entry)
+            } else if (parts[1] == 'recipe') {
+                crafting[parts[0] + ':' + path.split('/recipe/')[1][0..-6]] = [enabled:true] + parser.parse(entry)
+            }
+        }
+        def output = layout.buildDirectory.dir('generated/defaultConfigs/inscribed').get().asFile
+        output.mkdirs()
+        new File(output,'default-recipes.json').text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson([format_version:1,include_datapack_recipes:true,enchantment_recipes:ritual,crafting_recipes:crafting])) + '\n'
+        new File(output,'default-loot.json').text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson([format_version:1,include_datapack_pools:true,pools:pools])) + '\n'
+    }
+}
+
+tasks.register('defaultDatapackZip', Zip) {
+    from 'content/inscribed_default_datapack'
+    archiveBaseName = 'inscribed-vanilla-create'
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+}
+tasks.named('build') { dependsOn 'defaultDatapackZip' }
+tasks.register('auditDefaultDatapack', Exec) {
+    dependsOn 'createMinecraftArtifacts'
+    workingDir projectDir
+    commandLine 'python', file('tools/rc_recipe_audit.py').absolutePath
+}
+tasks.named('build') { dependsOn 'auditDefaultDatapack' }
+
+tasks.register('prepareReleaseQa') {
+    inputs.dir 'src/gameTest/java'
+    inputs.file 'build.gradle'
+    outputs.dir layout.buildDirectory.dir('generated/releaseQa/java')
+    doLast {
+        def files = fileTree('src/gameTest/java').matching { include '**/*.java' }.files
+        def renamed = [:]
+        files.each { entry ->
+            def matcher = entry.getText('UTF-8') =~ /package\s+([\w.]+);/
+            if (matcher.find()) renamed[matcher.group(1)+'.'+entry.name[0..-6]] = matcher.group(1).replaceFirst('dev.inscribed','dev.inscribedqa')+'.'+entry.name[0..-6]
+        }
+        files.each { entry ->
+            def text = entry.getText('UTF-8')
+            renamed.each { oldName,newName -> text = text.replace(oldName,newName) }
+            text = text.replaceAll(/package\s+(dev\.inscribed[\w.]*);/) { all, pkg -> 'package '+pkg.replaceFirst('dev.inscribed','dev.inscribedqa')+';\nimport '+pkg+'.*;\nimport dev.inscribed.*;' }
+            text = text.replaceAll(/modid\s*=\s*"inscribed"/, 'modid="inscribed_qa"')
+            def relative = file('src/gameTest/java').toPath().relativize(entry.toPath())
+            def target = new File(layout.buildDirectory.dir('generated/releaseQa/java').get().asFile,relative.toString())
+            target.parentFile.mkdirs(); target.setText(text,'UTF-8')
+        }
+    }
+}
+tasks.named('compileReleaseQaJava') { dependsOn 'prepareReleaseQa' }
+
+tasks.named("jar", Jar) { from("LICENSE") }

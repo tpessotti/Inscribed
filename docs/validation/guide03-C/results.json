@@ -1,0 +1,15 @@
+{
+  "lsbc": true,
+  "jei": false,
+  "unknownCatalogAndBookshelfNoLearning": "PASS",
+  "guideItemRightClick": "PASS",
+  "multiEnchantmentInventoryAcquisitionAndRefresh": "PASS",
+  "partialKnownWordsIdentitySearchAndIndependentKnowledge": "PASS",
+  "guideSearchDoesNotMatchUnknownWords": "PASS",
+  "forgetHidesRecipesWithoutInventoryRelearning": "PASS",
+  "bidirectionalEnchantmentRecipeNavigation": "PASS",
+  "codexFifthTabAndSharedGuide": "PASS",
+  "reloadRemovesRecipesAndRefreshesJei": "PASS",
+  "explicitDiscoveryAdminCommandsAndJeiRefresh": "PASS",
+  "status": "PASS"
+}

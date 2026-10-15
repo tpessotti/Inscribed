@@ -1,0 +1,19 @@
+{
+  "enchantment": "minecraft:smite",
+  "level": 1,
+  "minimum_bookshelf_power": 0,
+  "infusion": {
+    "ingredients": [
+      {
+        "tag": "inscribed:test_flexible",
+        "count": 1
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+      }
+    ],
+    "duration_ticks": 12,
+    "book_consumption_chance": 1
+  }
+}

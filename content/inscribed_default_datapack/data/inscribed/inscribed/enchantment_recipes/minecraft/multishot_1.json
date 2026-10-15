@@ -1,0 +1,41 @@
+{
+  "enchantment": "minecraft:multishot",
+  "level": 1,
+  "minimum_bookshelf_power": 8,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:arrow"
+      }
+    ],
+    "duration_ticks": 100,
+    "book_consumption_chance": 0.2
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:arrow"
+      }
+    ],
+    "duration_ticks": 100,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_2_INTERMEDIATE"
+}

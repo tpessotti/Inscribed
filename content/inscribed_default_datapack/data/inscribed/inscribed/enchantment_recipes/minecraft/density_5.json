@@ -1,0 +1,59 @@
+{
+  "enchantment": "minecraft:density",
+  "level": 5,
+  "minimum_bookshelf_power": 36,
+  "recipe_visibility": "ON_ENCHANTMENT_DISCOVERY",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:netherite_ingot"
+      },
+      {
+        "item": "minecraft:heavy_core"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      }
+    ],
+    "duration_ticks": 260,
+    "book_consumption_chance": 0.71
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:heavy_core"
+      },
+      {
+        "item": "inscribed:enchantment_catalyst"
+      },
+      {
+        "item": "minecraft:netherite_ingot"
+      }
+    ],
+    "duration_ticks": 260,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  },
+  "progression_tier": "TIER_5_LATE_GAME"
+}

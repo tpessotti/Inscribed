@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.inscribed.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TableRemovalMixin",
+    "AnvilResultMixin",
+    "ConfigCraftingRecipesMixin",
+    "VanillaEnchantingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

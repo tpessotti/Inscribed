@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "theme": "ANCIENT",
+  "structure_tier": 5,
+  "treasure": true,
+  "require_recipe": true,
+  "loot_tables": [
+    "minecraft:chests/ancient_city",
+    "minecraft:chests/end_city_treasure",
+    "minecraft:chests/bastion_treasure",
+    "minecraft:chests/trial_chambers/reward_ominous",
+    "minecraft:chests/trial_chambers/reward_ominous_rare",
+    "minecraft:chests/trial_chambers/reward_ominous_unique"
+  ],
+  "chance": 0.14,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "enchantment": "minecraft:breach",
+      "min_level": 4,
+      "max_level": 4,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:density",
+      "min_level": 5,
+      "max_level": 5,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:efficiency",
+      "min_level": 5,
+      "max_level": 5,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:power",
+      "min_level": 5,
+      "max_level": 5,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:sharpness",
+      "min_level": 5,
+      "max_level": 5,
+      "weight": 5
+    },
+    {
+      "enchantment": "minecraft:wind_burst",
+      "min_level": 3,
+      "max_level": 3,
+      "weight": 5
+    }
+  ]
+}

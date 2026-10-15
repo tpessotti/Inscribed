@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "installed": {
+    "mods\\inscribed-0.6.1.jar": {
+      "sha256": "e2c1a2db4bc5246c9be83f04e0d8c5fd2d839325d3adff506de081755896ffd3",
+      "bytes": 1004752
+    },
+    "mods\\lsbc-core-0.22.1.jar": {
+      "sha256": "5d99a2e660dcc18c6c29457647a07bc441bc3003bf5591ede78ecc4fe5086d81",
+      "bytes": 1670489
+    }
+  },
+  "junit": {
+    "inscribed": 4,
+    "lsbc_core": 112
+  },
+  "codexNativeCaptures": 108,
+  "guideStandalone": "PASS",
+  "guideLsbcJei": "PASS",
+  "actualBookBoundsIdentical": "PASS",
+  "geometrySourceContractIdentical": true,
+  "installedRecipeConfigsUnchanged": true,
+  "backup": "CODEX LSBC/INSCRIBED/backups/2026-10-13-book-consistency"
+}

@@ -1,0 +1,25 @@
+{
+  "enchantment": "minecraft:sharpness",
+  "level": 1,
+  "minimum_bookshelf_power": 0,
+  "recipe_visibility": "ALWAYS",
+  "infusion": {
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_rod"
+      }
+    ],
+    "duration_ticks": 40,
+    "book_consumption_chance": 0
+  },
+  "extraction": {
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_rod"
+      }
+    ],
+    "duration_ticks": 40,
+    "empty_books_required": 1,
+    "failure_chance": 0
+  }
+}

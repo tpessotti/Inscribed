@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "theme": "TREASURE",
+  "structure_tier": 5,
+  "treasure": true,
+  "require_recipe": false,
+  "loot_tables": [
+    "minecraft:chests/ancient_city",
+    "minecraft:chests/end_city_treasure",
+    "minecraft:chests/bastion_treasure",
+    "minecraft:chests/trial_chambers/reward_ominous",
+    "minecraft:chests/trial_chambers/reward_ominous_rare",
+    "minecraft:chests/trial_chambers/reward_ominous_unique"
+  ],
+  "chance": 0.22,
+  "min_rolls": 1,
+  "max_rolls": 1,
+  "entries": [
+    {
+      "item": "inscribed:enchantment_catalyst",
+      "weight": 19,
+      "min_count": 1,
+      "max_count": 1
+    },
+    {
+      "item": "inscribed:enchantment_catalyst",
+      "weight": 1,
+      "min_count": 2,
+      "max_count": 2
+    }
+  ]
+}
