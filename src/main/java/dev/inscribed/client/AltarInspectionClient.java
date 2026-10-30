@@ -41,7 +41,6 @@ public final class AltarInspectionClient {
     public static final class Setup {
         @SubscribeEvent public static void setup(FMLClientSetupEvent event) { InspectionNetworking.receiver(AltarInspectionClient::receive);
             dev.inscribed.knowledge.KnowledgeNetworking.receiver(ClientKnowledge::receive);
-            event.enqueueWork(()->{if(net.neoforged.fml.ModList.get().isLoaded("lsbc"))try{Class.forName("dev.inscribed.compat.lsbc.LSBCGuideClient").getMethod("initialize").invoke(null);}catch(ReflectiveOperationException|LinkageError error){com.mojang.logging.LogUtils.getLogger().error("Optional LSBC guide tab unavailable",error);}});
             InspectionNetworking.selectionReceiver(p->{var mc=Minecraft.getInstance();if(mc.player!=null && mc.screen==null)mc.setScreen(new RitualSelectionScreen(p));});
         }
         @SubscribeEvent public static void layers(RegisterGuiLayersEvent event) {

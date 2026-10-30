@@ -96,5 +96,6 @@
   "inscribed.ponder.enchanting_setup.text_5": "Clique com o botão direito na mesa segurando um item compatível para colocar o alvo.",
   "inscribed.ponder.enchanting_setup.text_6": "Use Shift + botão direito para iniciar a Infusão. Esta receita dura 5 segundos e não usa XP nem lápis-lazúli.",
   "inscribed.ponder.enchanting_setup.text_7": "A espada recebe Afiação I e os reagentes são consumidos. O livro tem 10%% de chance de consumo nesta receita padrão.",
-  "inscribed.ponder.enchanting_setup.text_8": "Clique com o botão direito com a mão principal vazia para retirar o item. Consulte o Guia ou JEI: modpacks podem alterar ingredientes, potência e chances."
+  "inscribed.ponder.enchanting_setup.text_8": "Clique com o botão direito com a mão principal vazia para retirar o item. Consulte o Guia ou JEI: modpacks podem alterar ingredientes, potência e chances.",
+  "guide.inscribed.forward": "Avançar"
 }

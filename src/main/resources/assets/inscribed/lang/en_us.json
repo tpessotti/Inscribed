@@ -96,5 +96,6 @@
   "inscribed.ponder.enchanting_setup.text_5": "Right-click the table with a compatible item to place your target.",
   "inscribed.ponder.enchanting_setup.text_6": "Shift + right-click to start Infusion. This recipe takes 5 seconds and uses no XP or lapis.",
   "inscribed.ponder.enchanting_setup.text_7": "The sword receives Sharpness I and the reagents are consumed. The reference book has a 10%% consumption chance in this default recipe.",
-  "inscribed.ponder.enchanting_setup.text_8": "Right-click with an empty main hand to retrieve the enchanted item. Check the Guide or JEI: modpacks can change ingredients, power and chances."
+  "inscribed.ponder.enchanting_setup.text_8": "Right-click with an empty main hand to retrieve the enchanted item. Check the Guide or JEI: modpacks can change ingredients, power and chances.",
+  "guide.inscribed.forward": "Forward"
 }

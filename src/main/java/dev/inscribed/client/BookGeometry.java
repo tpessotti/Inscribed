@@ -3,8 +3,8 @@ package dev.inscribed.client;
 public record BookGeometry(int x,int y,int width,int height,int ribbonWidth,int inset) {
     public static BookGeometry calculate(int viewportWidth,int viewportHeight){
         int ribbon=64;
-        int w=Math.min(520,viewportWidth-ribbon-20);
-        int h=Math.min((int)(viewportHeight*.82),(int)(w/1.62));w=Math.min(w,(int)(h*1.62));
+        int w=Math.min(580,viewportWidth-ribbon-20);
+        int h=Math.min((int)(viewportHeight*.88),(int)(w/1.62));w=Math.min(w,(int)(h*1.62));
         return new BookGeometry((viewportWidth-w-ribbon)/2,(viewportHeight-h)/2,w,h,ribbon,Math.max(18,w/20));
     }
     public int ribbonHeight(int count){return Math.min(24,(height-12-(count-1)*2)/count);}

@@ -5,3 +5,12 @@ libs/
 *.log
 **/__pycache__/
 *.pyc
+
+# Local dependencies and release artifacts are not source.
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.zip
+.env
+.env.*
+*.hprof
+*.jfr

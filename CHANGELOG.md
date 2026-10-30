@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.3
+
+Update the guide and altar inspection book geometry and theme, responsive content panels, bilingual text and native guide validation. Remove an unused LSBC guide shim from the publication checkout. Preserve ritual behavior, canonical recipes, loot and extraction failure defaults.
+
 ## 0.7.2
 
 Promote the validated 0.7.2-rc.1 to stable. Gameplay classes and canonical recipe/loot definitions are unchanged. Preserve 20% default extraction failure. Add portable development dependency preparation and repository build instructions. RC evidence remains explicitly historical.

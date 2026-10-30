@@ -1,0 +1,15 @@
+{
+  "version": "0.7.3",
+  "unit": {
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "dedicated_required_tests": 100,
+  "build": "PASS",
+  "recipe_audit": "build auditDefaultDatapack task passed",
+  "runtime_scope": "Dedicated base provider matrix; previous optional-provider/native visual evidence retains its historical scope.",
+  "local_log": "publish-073-validation.log",
+  "jar_sha256": "8bcdb1701b4b2492b6b6002866ff05cf69d67fbad57b7a7f0f87f064dcbe4c28"
+}

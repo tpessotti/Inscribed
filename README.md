@@ -1,6 +1,6 @@
-# Inscribed 0.7.2
+# Inscribed 0.7.3
 
-Stable 0.7.2 promotes the validated release candidate without changing gameplay or defaults. See [release notes](docs/RELEASE_NOTES_0.7.2.md), [build instructions](docs/INSCRIBED_DEV_SETUP.md), [compatibility](docs/INSCRIBED_COMPATIBILITY.md) and [recipe coverage](docs/INSCRIBED_RECIPE_COVERAGE_FINAL.md). Historical RC evidence is retained in `docs/rc08`.
+Version 0.7.3 updates the guide and altar inspection book geometry, paper theme, responsive layout and English/Portuguese text. Ritual mechanics, recipe/loot content and defaults retain the stable 0.7.2 behavior. See [release notes](docs/RELEASE_NOTES_0.7.3.md), [build instructions](docs/INSCRIBED_DEV_SETUP.md), [compatibility](docs/INSCRIBED_COMPATIBILITY.md) and [recipe coverage](docs/INSCRIBED_RECIPE_COVERAGE_FINAL.md). Historical RC evidence is retained in `docs/rc08`.
 
 Enchanted Books are physical knowledge. Place them in Chiseled Bookshelves, gather reagents on Infusion Pedestals, and use the Enchanting Table to infuse or extract enchantments.
 
