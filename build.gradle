@@ -14,8 +14,8 @@ sourceSets {
     }
     releaseOnly { }
     releaseQa {
-        java.srcDir layout.buildDirectory.dir('generated/releaseQa/java')
-        resources.srcDir 'src/gameTest/resources'
+        java.setSrcDirs([layout.buildDirectory.dir('generated/releaseQa/java'), 'src/releaseQaSupport/java'])
+        resources.setSrcDirs(['src/gameTest/resources', 'src/releaseQaResources'])
         compileClasspath += sourceSets.main.output + configurations.compileClasspath
     }
 }
@@ -30,6 +30,7 @@ neoForge {
     }
     runs {
         configureEach {
+            systemProperty 'inscribed.readmeExample', file('examples/add_enchantment/data/example/inscribed/enchantment_recipes/sharpness_1.json').absolutePath
             loadedMods.set(provider { name == 'releaseServer' ? [] : name.startsWith('release') ? [project.neoForge.mods.inscribed_qa] : [project.neoForge.mods.inscribed] })
         }
         client { client(); gameDirectory = file('runs/client') }
@@ -224,5 +225,18 @@ tasks.register('prepareReleaseQa') {
     }
 }
 tasks.named('compileReleaseQaJava') { dependsOn 'prepareReleaseQa' }
+tasks.named('processReleaseQaResources') {
+    inputs.property 'mod_version', project.mod_version
+    filesMatching('META-INF/neoforge.mods.toml') { expand mod_version: project.mod_version }
+}
 
 tasks.named("jar", Jar) { from("LICENSE") }
+
+sourceSets { publicationQa { compileClasspath += sourceSets.main.output + configurations.compileClasspath } }
+neoForge.addModdingDependenciesTo sourceSets.publicationQa
+tasks.register('publicationProbeJar', Jar) {
+    archiveFileName='inscribed-publication-qa.jar'
+    dependsOn tasks.named('compilePublicationQaJava')
+    from(sourceSets.publicationQa.output)
+    from('src/publicationQaResources')
+}

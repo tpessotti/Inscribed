@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.0
+
+Add independently configurable Librarian catalyst trading alongside the existing structure loot switch. Preserve offer order, saved stock and prices when disabled, and block pending normal/shift-click purchases. Update progression diagnostics, Guide content, documentation and publication materials. Include the 0.7.4 catalyst sprite and three-quarter pedestal inventory model. Add a complete enchantment datapack example and current native screenshots. Preserve the canonical ritual/loot catalog and MIT license.
+
+## 0.7.4
+
+Use a temporary 2D Enchantment Catalyst sprite and show the Infusion Pedestal at a three-quarter inventory angle. Ritual mechanics and recipe/loot data remain unchanged.
+
 ## 0.7.3
 
 Update the guide and altar inspection book geometry and theme, responsive content panels, bilingual text and native guide validation. Remove an unused LSBC guide shim from the publication checkout. Preserve ritual behavior, canonical recipes, loot and extraction failure defaults.

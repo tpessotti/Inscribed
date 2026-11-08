@@ -1,0 +1,59 @@
+{
+  "version": "0.8.0",
+  "status": "PASS",
+  "license": "MIT",
+  "license_sha256": "ba6f2a5c928e5afaf430f72daa83380e6292b120a834afad399722c458645c83",
+  "canonical_recipes": 131,
+  "loot_pools": 13,
+  "canonical_data_files": 156,
+  "no_qa_or_optional_provider_classes_bundled": true,
+  "unit": {
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "dedicated_tests": 106,
+  "packaged_jar_dedicated_tests": 106,
+  "native": {
+    "status": "PASS",
+    "native_purchase": true,
+    "actual_catalog_ritual": true,
+    "disposable_world": true,
+    "optional_runtime_mods": 0,
+    "images": [
+      "altar-overview.png",
+      "altar-infusion.png",
+      "librarian-trade.png",
+      "guide-book.png",
+      "project-icon.png"
+    ]
+  },
+  "images": {
+    "altar-overview.png": "5cbb7ff627106862d877f2030c9e8107f2debdf8a703f00a4d8b275b2e620613",
+    "altar-infusion.png": "a0cf027679c89eb032bce7bb95674829c865d1c410ddc547a4ec464718b8b1ee",
+    "librarian-trade.png": "9adbf2d2e20dbf560065cba372e0c4d102a1de563f62bdc2094af7c4f34069cd",
+    "guide-book.png": "b4dc743b2b54a15db446c7fb5ba2e1f134c1c8cc4adfcba14affb5f070f7c23e",
+    "project-icon.png": "694a24f026e02f1e57b5e3b472c39e688bd4bc5103443b6bd0477791de95fda1"
+  },
+  "example_schema_and_server_parser": "PASS",
+  "secret_scan": {
+    "current_files": 551,
+    "history_commits": 2,
+    "findings": 0
+  },
+  "platforms_submitted": false,
+  "modrinth_public_listing_eligibility": "REQUIRES_REVIEW_UNDER_AI_POLICY",
+  "artifacts": [
+    {
+      "name": "inscribed-0.8.0.jar",
+      "bytes": 1051098,
+      "sha256": "ca84c7d74cecb67c430dbd96ec5b21ee90f076bd4befb298d7cd0f0032427cb6"
+    },
+    {
+      "name": "inscribed-vanilla-create-0.8.0.zip",
+      "bytes": 131960,
+      "sha256": "7ee9857f1b33a7c217db35eb6bfc80a0630a8d2e6ca6d51010624a125fc8213c"
+    }
+  ]
+}

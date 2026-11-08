@@ -14,3 +14,9 @@ libs/
 .env.*
 *.hprof
 *.jfr
+
+# Local modpack installation receipts/cross-project QA captures are not publication source.
+docs/VISUAL_UPDATES_0.7.4_INSTALL.json
+docs/evidence/instrument-visuals/pt_br-gui4-gallery.png
+docs/evidence/instrument-visuals/pt_br-gui4-inventory.png
+.vscode/launch.json

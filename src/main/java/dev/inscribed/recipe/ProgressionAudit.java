@@ -8,7 +8,8 @@ import net.minecraft.resources.ResourceLocation;
 public final class ProgressionAudit {
     public static List<String> warnings() {
         var warnings=new ArrayList<String>();var recipes=InscribedRecipeRegistry.recipes();var pools=LootInjection.pools();
-        boolean catalystSource=dev.inscribed.config.InscribedConfig.CATALYST_LOOT.get() && pools.stream().filter(ProgressionAudit::activePool).flatMap(p->p.entries().stream()).anyMatch(e->e.item().toString().equals("inscribed:enchantment_catalyst"));
+        boolean catalystSource=dev.inscribed.config.InscribedConfig.CATALYST_TRADE.get()
+                || dev.inscribed.config.InscribedConfig.CATALYST_LOOT.get() && pools.stream().filter(ProgressionAudit::activePool).flatMap(p->p.entries().stream()).anyMatch(e->e.item().toString().equals("inscribed:enchantment_catalyst"));
         for(var recipe:recipes) {
             if(recipe.infusion().isPresent()) {
                 boolean source=dev.inscribed.config.InscribedConfig.BOOK_LOOT.get() && pools.stream().filter(ProgressionAudit::activePool).flatMap(p->p.entries().stream()).anyMatch(e->recipe.enchantment().equals(e.enchantment()) && (recipe.exactBookLevel() ? e.minLevel()<=recipe.level() && e.maxLevel()>=recipe.level() : e.maxLevel()>=recipe.level()));

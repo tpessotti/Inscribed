@@ -1,4 +1,4 @@
-# Building Inscribed 0.7.3
+# Building Inscribed 0.8.0
 
 Use JDK 21, Python 3 with `jsonschema`, and the checked-in Gradle wrapper (9.2.1). Minecraft 1.21.1, NeoForge 21.1.255 and official NeoForm mappings 20240808.144430 are pinned by the build. The first build needs network access for Gradle/NeoForge artifacts.
 
@@ -17,7 +17,7 @@ The helper copies the three providers into ignored `libs/` and extracts Create's
 ./gradlew clean test build
 ```
 
-Windows: use `gradlew.bat`. Outputs are `build/libs/inscribed-0.7.3.jar` and `build/distributions/inscribed-vanilla-create-0.7.3.zip`. Canonical data is `content/inscribed_default_datapack`; compatible editable defaults are generated from it. Do not hand-edit generated build files.
+Windows: use `gradlew.bat`. Outputs are `build/libs/inscribed-0.8.0.jar` and `build/distributions/inscribed-vanilla-create-0.8.0.zip`. Canonical data is `content/inscribed_default_datapack`; compatible editable defaults are generated from it. Do not hand-edit generated build files.
 
 ## Runtime QA
 

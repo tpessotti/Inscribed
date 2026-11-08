@@ -27,7 +27,7 @@
   {
     "id": "pedestals",
     "title": "Pedestais e Catalyst",
-    "body": "Cada pedestal aceita um item; cada ritual usa no máximo oito ingredientes em pedestais separados. Retire e separe pilhas antigas. Rituais fortes usam Catalisador de Encantamento, encontrado raramente em estruturas intermediárias e com maior frequência em fontes perigosas de tesouro. Rituais tardios também exigem materiais avançados. Rituais básicos não exigem Catalyst."
+    "body": "Cada pedestal aceita um item; cada ritual usa no máximo oito ingredientes em pedestais separados. Retire e separe pilhas antigas. Rituais fortes usam Catalisador de Encantamento, encontrado raramente em estruturas intermediárias e com maior frequência em fontes perigosas de tesouro. Rituais tardios também exigem materiais avançados. Rituais básicos não exigem Catalyst. Bibliotecários qualificados também vendem catalisadores quando essa fonte está habilitada; loot e trocas têm configurações independentes."
   },
   {
     "id": "power",

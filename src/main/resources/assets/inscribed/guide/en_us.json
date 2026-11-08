@@ -27,7 +27,7 @@
   {
     "id": "pedestals",
     "title": "Pedestals",
-    "body": "Each pedestal holds exactly one item; at most eight pedestal ingredients per ritual. Use separate pedestals for repeated materials. Retrieve and split legacy stacks. Enchantment Catalyst is used by stronger rituals and is found rarely in intermediate structures, more often in dangerous treasure sources. Late-game rituals also need advanced materials. Basic rituals do not require Catalyst."
+    "body": "Each pedestal holds exactly one item; at most eight pedestal ingredients per ritual. Use separate pedestals for repeated materials. Retrieve and split legacy stacks. Enchantment Catalyst is used by stronger rituals and is found rarely in intermediate structures, more often in dangerous treasure sources. Late-game rituals also need advanced materials. Basic rituals do not require Catalyst. Qualified Librarians can also sell Catalyst when the server enables that source; loot and trades are configured independently."
   },
   {
     "id": "power",

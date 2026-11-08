@@ -7,6 +7,8 @@ public final class InscribedConfig {
     public static final ModConfigSpec.BooleanValue KNOWLEDGE_PICKUP, KNOWLEDGE_TRADE, KNOWLEDGE_INVENTORY, KNOWLEDGE_EXTRACTION, LSBC_KNOWLEDGE, JEI_RECIPES;
     public static final ModConfigSpec.IntValue KNOWLEDGE_INTERVAL;
     public static final ModConfigSpec.BooleanValue LOOT_INJECTION, CATALYST_LOOT, BOOK_LOOT, PHASE_VISUALS;
+    public static final ModConfigSpec.BooleanValue CATALYST_TRADE;
+    public static final ModConfigSpec.IntValue CATALYST_TRADE_LEVEL, CATALYST_EMERALD_COST, CATALYST_TRADE_MAX_USES;
     public static final ModConfigSpec.DoubleValue LOOT_MULTIPLIER, TREASURE_LOOT_MULTIPLIER;
     public static final ModConfigSpec.IntValue BOOKSHELF_RADIUS, CHISELED_RADIUS, PEDESTAL_RADIUS, MAX_PEDESTALS, VERTICAL_RADIUS, INSPECTION_TICKS, BOOK_COOLDOWN, SELECTION_TIMEOUT, SOUND_INTERVAL, PARTICLE_INTERVAL;
     public static final ModConfigSpec.BooleanValue REQUIRE_SHIFT, RENDER_ITEMS, PARTICLES, DYNAMIC_LIGHT;
@@ -84,6 +86,11 @@ public final class InscribedConfig {
         BOOK_LOOT=b.define("enable_book_loot_injection",true);
         LOOT_MULTIPLIER=b.comment("Multiplier for pool roll chance, clamped to 1 after multiplication.").defineInRange("loot_multiplier",1.0,0.0,10.0);
         TREASURE_LOOT_MULTIPLIER=b.comment("Additional multiplier for pools marked treasure=true.").defineInRange("treasure_loot_multiplier",1.0,0.0,10.0);
+        b.pop().push("trades");
+        CATALYST_TRADE=b.comment("Allow librarians to sell one Enchantment Catalyst. Disabling marks existing catalyst offers unavailable and blocks pending purchases without deleting saved offers.").define("enable_catalyst_trade",true);
+        CATALYST_TRADE_LEVEL=b.comment("Minimum librarian level: 1 novice, 2 apprentice, 3 journeyman, 4 expert, 5 master.").defineInRange("catalyst_librarian_level",4,1,5);
+        CATALYST_EMERALD_COST=b.comment("Base emerald price for newly created offers. Vanilla discounts/demand still apply; saved prices are preserved.").defineInRange("catalyst_emerald_cost",24,1,64);
+        CATALYST_TRADE_MAX_USES=b.comment("Stock per restock for newly created offers; existing offer stock/uses are preserved.").defineInRange("catalyst_max_uses",4,1,64);
         b.pop(); SPEC = b.build();
     }
     private static ModConfigSpec.ConfigValue<String> sound(ModConfigSpec.Builder b,String name,String value){return b.comment("Registered sound event ID; unknown IDs fall back to the vanilla sound.").define(name,value,v->v instanceof String s && net.minecraft.resources.ResourceLocation.tryParse(s)!=null);}

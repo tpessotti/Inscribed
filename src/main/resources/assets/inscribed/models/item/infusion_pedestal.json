@@ -1,1 +1,11 @@
-{"parent":"inscribed:block/infusion_pedestal"}
+{
+  "parent": "inscribed:block/infusion_pedestal",
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [28, 225, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.8, 0.8, 0.8]
+    }
+  }
+}

@@ -91,6 +91,10 @@ public final class Progression05GameTests {
         String[] commands={"inscribed debug balance inscribed:minecraft/fortune_3","inscribed debug loot table minecraft:chests/ancient_city","inscribed debug loot enchantment minecraft:fortune","inscribed debug progression report"};
         for(var command:commands){boolean denied=false;try{dispatcher.execute(command,plain);}catch(com.mojang.brigadier.exceptions.CommandSyntaxException e){denied=true;}h.assertTrue(denied,"Non-operator accessed "+command);h.assertTrue(dispatcher.execute(command,plain.withPermission(2))>0,"Operator debug failed "+command);}
         h.assertTrue(ProgressionAudit.warnings().isEmpty(),"Default runtime source audit has warnings: "+ProgressionAudit.warnings());
-        boolean old=InscribedConfig.CATALYST_LOOT.get();try{InscribedConfig.CATALYST_LOOT.set(false);h.assertTrue(ProgressionAudit.warnings().stream().anyMatch(s->s.startsWith("NO_CATALYST_SOURCE")),"Disabled required catalyst source not detected");}finally{InscribedConfig.CATALYST_LOOT.set(old);}h.succeed();
+        boolean old=InscribedConfig.CATALYST_LOOT.get(),trade=InscribedConfig.CATALYST_TRADE.get();try{
+            InscribedConfig.CATALYST_LOOT.set(false);InscribedConfig.CATALYST_TRADE.set(true);
+            h.assertTrue(ProgressionAudit.warnings().stream().noneMatch(s->s.startsWith("NO_CATALYST_SOURCE")),"Librarian source was not recognized");
+            InscribedConfig.CATALYST_TRADE.set(false);h.assertTrue(ProgressionAudit.warnings().stream().anyMatch(s->s.startsWith("NO_CATALYST_SOURCE")),"Disabled required catalyst sources not detected");
+        }finally{InscribedConfig.CATALYST_LOOT.set(old);InscribedConfig.CATALYST_TRADE.set(trade);}h.succeed();
     }
 }

@@ -1,4 +1,4 @@
-# Configuration reference - 0.7.2-rc.1
+# Configuration reference - 0.8.0
 
 `config/inscribed-server.toml` controls global behavior. All options are NeoForge SERVER scope, synchronized to clients; visuals currently share that scope. Edit the active file used by your instance (NeoForge can use a world's serverconfig directory), preferably with the server stopped, then restart for complete synchronization.
 
@@ -9,6 +9,19 @@
 Run `/reload` or `/inscribed reload` for recipe/loot JSON changes. Client resources use F3+T. Changing mods or registered enchantments requires restart. NeoForge corrects invalid TOML types/ranges to safe defaults with warnings. Invalid recipe/pool fields reject their entry. Invalid whole JSON config files retain the last valid document within that server session; without one, loading fails closed.
 
 One item per pedestal and at most eight expanded costs are fixed design rules. `max_pedestals` may lower the accepted count (1..8), but cannot exceed eight. Excess populated pedestals reject the altar rather than selecting a subset.
+
+## Catalyst acquisition switches
+
+`loot.enable_catalyst_loot` controls catalyst loot independently of `trades.enable_catalyst_trade`. The global `loot.enable_loot_injection` also controls all injected loot. Both catalyst routes default to enabled. Existing custom JSON overlays are preserved.
+
+| Trade key | Default | Range / effect |
+| --- | --- | --- |
+| `trades.enable_catalyst_trade` | `true` | Enable the extra Librarian offer; disabled existing offers are unavailable, not deleted |
+| `trades.catalyst_librarian_level` | `4` | Minimum level, 1 novice through 5 master |
+| `trades.catalyst_emerald_cost` | `24` | Base price for new offers, 1..64; vanilla discounts/demand apply |
+| `trades.catalyst_max_uses` | `4` | Uses per restock for new offers, 1..64 |
+
+Existing price/stock history is preserved. Pending normal/shift-click purchases cannot bypass a disabled trade. Reopen a trade window after changing the switch to refresh displayed availability. See [Catalyst](INSCRIBED_CATALYST.md).
 
 ## Inventory
 

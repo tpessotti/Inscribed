@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="inscribed_publication_qa"
+version="0.8.0-qa"
+displayName="Inscribed isolated publication preview"
+[[dependencies.inscribed_publication_qa]]
+modId="inscribed"
+type="required"
+versionRange="[0.8.0]"
+ordering="AFTER"
+side="CLIENT"

@@ -1,49 +1,121 @@
-# Inscribed 0.7.3
+# Inscribed
 
-Version 0.7.3 updates the guide and altar inspection book geometry, paper theme, responsive layout and English/Portuguese text. Ritual mechanics, recipe/loot content and defaults retain the stable 0.7.2 behavior. See [release notes](docs/RELEASE_NOTES_0.7.3.md), [build instructions](docs/INSCRIBED_DEV_SETUP.md), [compatibility](docs/INSCRIBED_COMPATIBILITY.md) and [recipe coverage](docs/INSCRIBED_RECIPE_COVERAGE_FINAL.md). Historical RC evidence is retained in `docs/rc08`.
+**Build a library. Prepare your reagents. Inscribe your equipment.**
 
-Enchanted Books are physical knowledge. Place them in Chiseled Bookshelves, gather reagents on Infusion Pedestals, and use the Enchanting Table to infuse or extract enchantments.
+Inscribed turns enchanting into a physical craft built around enchanted books, a working library and rituals at the Enchanting Table. Books become knowledge you can find, store and put to use. A stronger enchantment asks for a better library and rarer materials, giving exploration and your enchanting room a continuing purpose.
 
-## Installation
+Prepared release: **0.8.0** · **Minecraft 1.21.1** · **NeoForge 21.1.255+** · **Java 21** · **MIT**
 
-Minecraft **1.21.1**, **NeoForge 21.1.255 or newer**, and **Java 21** are required. Place the Inscribed JAR in `mods` on the client and server. Optional integrations: JEI 19.57.0.451 (client), LSBC 0.22.1, and Create 6.0.10. No optional mod is required to play.
+[Português do Brasil](docs/README.pt-BR.md) · [Add enchantments](docs/ADDING_ENCHANTMENTS.md) · [Configuration](docs/INSCRIBED_CONFIGURATION.md) · [Changelog](CHANGELOG.md) · [Issues](https://github.com/tpessotti/Inscribed/issues)
 
-## Core loop
+![A working Inscribed altar with physical bookshelves and infusion pedestals](docs/images/altar-overview.png)
 
-1. Find enchanted books and store them in nearby Chiseled Bookshelves.
-2. Place the target item on an Enchanting Table with right click.
-3. Put one reagent on each nearby Infusion Pedestal. Recipes use at most eight pedestals.
-4. Supply Bookshelf Power with ordinary bookshelves, then Shift + right click the table to start.
-5. Retrieve the result with an empty main hand.
+## The idea
 
-Infusion applies the recipe's exact level, using a matching physical book. It uses neither XP nor lapis. When multiple infusion recipes match, the selector shows the valid choices. Extraction is selected by pedestal ingredients, without a selection interface. The default recipes have **20% extraction failure**: failure consumes reagents and the empty book and removes the selected enchantment without producing a book. Cancellation consumes nothing.
+An enchanted book is a physical reference. Keep it in a nearby Chiseled Bookshelf, place an item on your Enchanting Table and supply the recipe's reagents on Infusion Pedestals. Ordinary Bookshelves provide the power your altar needs. Advanced recipes add an Enchantment Catalyst and increasingly demanding materials.
 
-## Physical Library and Pedestals
+The altar's floating items, ritual effects and sounds show what is happening. Its guide explains the process and the enchantments you have discovered. Infusion and extraction use their own recipes and risks, so copying knowledge and recovering a book are decisions you can plan around.
 
-Defaults: bookshelves and physical library within five blocks horizontally, pedestals within four; vertical range is two blocks. A stronger book can authorize a weaker recipe, but the output remains the recipe's level. Learning an enchantment reveals eligible recipes; it never replaces the physical book. Pedestals hold one item and require manual interaction. They cannot be moved by pistons or Create contraptions.
+## What you can do
 
-## Enchantment Catalyst
+- **Infuse enchantments** into compatible equipment using a matching physical reference book.
+- **Extract an enchantment** from equipment into a book while preserving the item's other enchantments and components.
+- **Build a physical library** using Chiseled Bookshelves for reference books and empty books.
+- **Prepare up to eight reagents**, one item per Infusion Pedestal.
+- **Find catalysts in structure loot** or buy them from qualified Librarians. Both sources have independent switches.
+- **Explore a data-driven catalog** of 125 vanilla-enchantment recipes and six additional recipes when Create is installed.
+- **Customize recipes and loot** through datapacks and JSON overlays, including enchantments registered by other mods.
 
-Advanced recipes use `inscribed:enchantment_catalyst`, a progression resource found in configured structure loot. Duplicate enchanted books remain useful as library references and replacements for consumed books. The default catalog contains 125 vanilla recipes and six conditional Create recipes. Villager trades remain vanilla.
+![Infusion running at the altar](docs/images/altar-infusion.png)
 
-## Guide and optional integrations
+## Getting started
 
-Craft the Guide Book with a book and amethyst shard. It explains rituals and shows discovered enchantments and recipes. JEI adds Infusion and Extraction categories. LSBC adds the Codex Enchantments tab, KnownWords names and magnifying-glass inspection. Without LSBC, Shift + right click with Book and Quill records the altar inspection in the book.
+1. Install the matching Inscribed JAR on the client and server. NeoForge and Java are required; optional integrations are listed below.
+2. Craft an **Inscribed Guide** with a book and an amethyst shard. Read the setup and recipe information in game.
+3. Set up an Enchanting Table, ordinary Bookshelves and a nearby Chiseled Bookshelf.
+4. Put a matching enchanted book in the Chiseled Bookshelf. Right-click the table with your target item.
+5. Place each reagent on a separate Infusion Pedestal. Shift + right-click the table with an empty hand to begin. If several infusions match, choose the one you want.
+6. Retrieve the finished target with an empty main hand.
 
-![Guide Book](docs/images/guide-book.png)
+Default horizontal ranges are five blocks for bookshelves/library and four blocks for pedestals; the vertical range is two blocks. Pedestals hold one item each. A stronger reference book can authorize a weaker recipe unless that recipe requires an exact book level; the result still uses the recipe's level.
 
-With Create installed, hover the Enchanting Table or Infusion Pedestal item and hold W to open the [animated Ponder setup tutorial](docs/INSCRIBED_CREATE_PONDER.md).
+Rituals use reagents and physical books instead of XP or lapis as a universal cost. A recipe may still request lapis as an ingredient. Infusion can consume its reference book according to that recipe's chance.
 
-## Datapacks and configuration
+### Extracting an enchantment
 
-Add recipes and loot without changing Java. Start with the [modpack quickstart](docs/INSCRIBED_MODPACK_QUICKSTART.md), then use the [authoring guide](docs/INSCRIBED_DATAPACK_AUTHORING.md), [configuration reference](docs/INSCRIBED_CONFIGURATION.md), [compatibility table](docs/INSCRIBED_COMPATIBILITY.md), and [troubleshooting](docs/INSCRIBED_TROUBLESHOOTING.md).
+Place the enchanted target on the table, supply the extraction reagents and put empty books in the Chiseled Bookshelf. The reagents select the enchantment to extract. Adjust them if several extractions match.
 
-The server TOML controls global behavior. Datapacks define content. Existing JSON configuration overlays are supported and **take precedence over datapacks** for the same ID. See the configuration reference before replacing default content.
+**Default extraction recipes have a 20% failure chance.** A failed extraction consumes the reagents and empty book, removes the selected enchantment and produces no enchanted book. Cancellation consumes nothing. Other enchantments remain on the target.
 
-## Release information
+By default, anvil operations cannot transfer or merge enchantments; repairs and renaming that preserve the base item's enchantments remain available. This restriction is configurable.
 
-[Changelog](CHANGELOG.md), [credits](CREDITS.md), [MIT license](LICENSE), [known limitations](docs/INSCRIBED_KNOWN_LIMITATIONS.md), and [release checklist](docs/INSCRIBED_RELEASE_CHECKLIST.md). Historical implementation reports describe earlier builds; the current release is 0.7.2; RC reports retain their original version labels.
+![The standalone Inscribed Guide](docs/images/guide-book.png)
 
-## Official default content
+## Obtaining an Enchantment Catalyst
 
-`content/inscribed_default_datapack` is the canonical production Vanilla + Create datapack. The JAR embeds its data and generates editable config mirrors from the same source. `defaultDatapackZip` exports the official standalone pack. Installing that pack overrides the same IDs; examples remain separate and never load as defaults. Explicit JSON configuration entries take precedence over datapacks with the same ID. See the [authoring guide](docs/INSCRIBED_DATAPACK_AUTHORING.md).
+`inscribed:enchantment_catalyst` is a reagent consumed by recipes that require it. Basic rituals do not require a catalyst.
+
+| Source | Default behavior |
+| --- | --- |
+| Intermediate structure loot | 7% additional roll: shipwreck treasure, buried treasure, mineshafts, dungeons, outposts, jungle temples and desert pyramids |
+| Advanced structure loot | 14% additional roll: strongholds, woodland mansions and regular Trial Chamber reward tables |
+| Treasure loot | 22% additional roll: Ancient Cities, End Cities, bastion treasure and ominous Trial Chamber rewards |
+| Librarians | One extra offer from Expert level onward: 24 emeralds for one catalyst; four uses per restock |
+
+Treasure rolls award one catalyst 95% of the time and two 5% of the time. Other defaults award one. Loot is additive. Existing generated chests are not refilled. Vanilla trade discounts, demand and restocking apply to the Librarian offer.
+
+![A Librarian offering an Enchantment Catalyst](docs/images/librarian-trade.png)
+
+Configure the active `inscribed-server.toml` used by your server/world:
+
+```toml
+[loot]
+enable_loot_injection = true
+enable_catalyst_loot = true
+
+[trades]
+enable_catalyst_trade = true
+catalyst_librarian_level = 4
+catalyst_emerald_cost = 24
+catalyst_max_uses = 4
+```
+
+Set either catalyst switch to `false` to disable that source independently. The global loot switch also controls all Inscribed loot injections. Disabling trades marks existing Librarian catalyst offers unavailable and blocks pending purchases; re-enabling preserves their saved stock/history. Reopen an existing trade window to refresh its displayed availability. Price and stock settings apply when a new offer is created.
+
+See [Catalyst details](docs/INSCRIBED_CATALYST.md) and the [full configuration reference](docs/INSCRIBED_CONFIGURATION.md). Customized recipe/loot JSON overlays are preserved on upgrade.
+
+## Optional integrations
+
+| Mod | Integration |
+| --- | --- |
+| JEI | Infusion and Extraction recipe categories |
+| Create / Ponder | Animated altar setup tutorial; six conditional enchantment recipes |
+| LSBC | Codex enchantment knowledge, word integration and magnifying-glass inspection |
+
+Inscribed also works without these mods. Without LSBC, Book and Quill provides the altar inspection fallback. The standalone Guide is part of Inscribed itself. See [compatibility](docs/INSCRIBED_COMPATIBILITY.md) for tested versions and limits.
+
+## Add your own enchantments and recipes
+
+Inscribed can use an enchantment already registered by Minecraft, a mod or a datapack. An Inscribed recipe defines its ritual; it does not create the enchantment's effect.
+
+For a ready-to-edit, complete datapack, use [examples/add_enchantment](examples/add_enchantment). It contains `pack.mcmeta` and an infusion/extraction recipe at:
+
+```text
+data/example/inscribed/enchantment_recipes/sharpness_1.json
+```
+
+The [step-by-step authoring guide](docs/ADDING_ENCHANTMENTS.md) covers the full JSON, physical library requirements, modded enchantment IDs, optional-mod conditions, reloads and a working test checklist. [Documentação em português](docs/ADDING_ENCHANTMENTS.pt-BR.md) is also available.
+
+For advanced customization, use the [datapack reference](docs/INSCRIBED_DATAPACK_AUTHORING.md), [JSON schemas](schemas), [templates](templates) and [modpack quickstart](docs/INSCRIBED_MODPACK_QUICKSTART.md). Explicit JSON overlay entries take precedence over same-ID datapack recipes; use your own namespace for additions.
+
+## Development and publication
+
+Build instructions and optional API prerequisites: [developer setup](docs/INSCRIBED_DEV_SETUP.md). Default production data lives in `content/inscribed_default_datapack`; the build embeds it and exports the same content as a standalone datapack. Examples are not installed as defaults.
+
+[Publication kit](docs/publication/README.md) contains prepared English descriptions, platform metadata, changelog, artifact checksums, screenshot provenance and the remaining platform submission steps. No CurseForge or Modrinth listing is claimed until it has actually been submitted and approved.
+
+## License and credits
+
+Source and original project assets are distributed under the [MIT license](LICENSE). Minecraft and optional mods retain their own rights and are not bundled. See [credits](CREDITS.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+
+Development, documentation and some bundled artwork used generative AI under project-owner direction. Screenshots in this README are actual in-game captures. [AI and media provenance](docs/publication/PROVENANCE.md) records that distinction and the relevant Modrinth publication requirements.

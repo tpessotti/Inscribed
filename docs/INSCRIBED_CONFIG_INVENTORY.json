@@ -624,5 +624,57 @@
       0.1,
       8.0
     ]
+  },
+  "trades.enable_catalyst_trade": {
+    "field": "CATALYST_TRADE",
+    "default": true,
+    "type": "Boolean",
+    "scope": "SERVER",
+    "purpose": "Enable the additional Librarian catalyst offer without erasing saved offers",
+    "deprecated": false,
+    "used": true,
+    "usage": "CatalystTrades / CatalystOfferStockMixin / merchant result guards"
+  },
+  "trades.catalyst_librarian_level": {
+    "field": "CATALYST_TRADE_LEVEL",
+    "default": 4,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Minimum eligible Librarian level",
+    "deprecated": false,
+    "used": true,
+    "usage": "CatalystTrades / CatalystOfferStockMixin / merchant result guards",
+    "range": [
+      1,
+      5
+    ]
+  },
+  "trades.catalyst_emerald_cost": {
+    "field": "CATALYST_EMERALD_COST",
+    "default": 24,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Base emerald price for newly created offers",
+    "deprecated": false,
+    "used": true,
+    "usage": "CatalystTrades / CatalystOfferStockMixin / merchant result guards",
+    "range": [
+      1,
+      64
+    ]
+  },
+  "trades.catalyst_max_uses": {
+    "field": "CATALYST_TRADE_MAX_USES",
+    "default": 4,
+    "type": "Integer",
+    "scope": "SERVER",
+    "purpose": "Stock per restock for newly created offers",
+    "deprecated": false,
+    "used": true,
+    "usage": "CatalystTrades / CatalystOfferStockMixin / merchant result guards",
+    "range": [
+      1,
+      64
+    ]
   }
 }

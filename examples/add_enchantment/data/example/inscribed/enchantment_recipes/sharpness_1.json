@@ -1,0 +1,25 @@
+{
+  "enchantment": "minecraft:sharpness",
+  "level": 1,
+  "minimum_bookshelf_power": 2,
+  "recipe_visibility": "ALWAYS",
+  "progression_tier": "TIER_1_BASIC",
+  "infusion": {
+    "ingredients": [
+      {"item": "minecraft:flint"},
+      {"item": "minecraft:amethyst_shard"},
+      {"item": "minecraft:iron_ingot"}
+    ],
+    "duration_ticks": 100,
+    "book_consumption_chance": 0.1
+  },
+  "extraction": {
+    "ingredients": [
+      {"item": "minecraft:lapis_lazuli"},
+      {"item": "minecraft:amethyst_shard"}
+    ],
+    "duration_ticks": 120,
+    "empty_books_required": 1,
+    "failure_chance": 0.2
+  }
+}

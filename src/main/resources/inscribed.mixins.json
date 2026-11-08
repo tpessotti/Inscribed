@@ -7,7 +7,11 @@
     "TableRemovalMixin",
     "AnvilResultMixin",
     "ConfigCraftingRecipesMixin",
-    "VanillaEnchantingMixin"
+    "VanillaEnchantingMixin",
+    "LibrarianCatalystMixin",
+    "CatalystTradeResultMixin",
+    "CatalystTradeQuickMoveMixin",
+    "CatalystOfferStockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

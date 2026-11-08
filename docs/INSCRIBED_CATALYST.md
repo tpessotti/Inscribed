@@ -1,12 +1,33 @@
-# Enchantment Catalyst — Inscribed 0.7.2-rc.1
+# Enchantment Catalyst — Inscribed 0.8.0
 
-`inscribed:enchantment_catalyst` / **Enchantment Catalyst** / **Catalisador de Encantamento** is a consumed ritual reagent, not a permanent tool. The progression concept can be reused by recipes and future merchant integrations. It has a vanilla-compatible layered echo/amethyst placeholder model, a creative-tab entry and the tag `inscribed:ritual_catalysts`.
+`inscribed:enchantment_catalyst` is a consumed reagent. It has its own temporary 2D sprite, a creative-tab entry and the item tag `inscribed:ritual_catalysts`. A recipe decides whether it requires a catalyst; basic rituals do not.
 
-The catalog uses one catalyst in infusion and extraction of tiers 3–5 and the intermediate Channeling recipe, totaling 64 recipe IDs. Basic rituals never use it; curses and Create I/II are intermediate without a universal Catalyst requirement. Exact recipe IDs and levels are listed in [the balance matrix](INSCRIBED_BALANCE_MATRIX.md). Existing thematic extraction selectors still distinguish enchantments; Catalyst does not replace them. Duration and 20% extraction failure remain unchanged; power and infusion risk now follow per-level progression.
+## Structure loot
 
-Default acquisition is configurable structure loot: a 7% extra roll in intermediate sources, 14% in advanced sources and 22% in treasure sources. Treasure wins yield one unit 95% of the time and two 5%; other defaults yield one. Loot is additive and separately switchable. No crafting recipe or villager-trade rewrite was added. Modpack makers can add crafting through `crafting_recipes` or use the stable item/tag in external merchant integrations.
+The existing additive pools remain unchanged: 7% additional roll in intermediate structures, 14% in advanced structures and 22% in treasure sources. Intermediate/advanced wins give one. Treasure wins give one 95% of the time and two 5% of the time. Exact loot-table IDs are in `content/inscribed_default_datapack/data/inscribed/inscribed/loot_injections/*_catalyst.json`.
 
-The guide, shared Codex adapter and JEI receive the same actual costs. Missing Catalyst has a localized action-bar message. Active Catalyst motion has a modest extra pulse; final art and fragments are outside this stage.
+`loot.enable_catalyst_loot=false` disables catalyst injections. `loot.enable_loot_injection=false` disables all Inscribed loot injection, including books. Multipliers and JSON pool overlays remain supported. Already generated chests are not refilled and existing custom overlays are not overwritten.
 
+## Librarians
 
-Authoring: add `{"item":"inscribed:enchantment_catalyst"}` as a unit ingredient. Loot pools can supply the same item with weights/chance. Future merchants are a possible external source, not an implemented merchant system. See [datapack authoring](INSCRIBED_DATAPACK_AUTHORING.md) and [configuration](INSCRIBED_CONFIGURATION.md).
+Qualified Librarians receive one additional catalyst offer without replacing their ordinary trades. Defaults: minimum level **4 / Expert**, **24 emeralds** for **one catalyst**, **four uses per restock**, 15 villager XP and vanilla price multiplier 0.05. Discounts and demand apply normally.
+
+```toml
+[trades]
+enable_catalyst_trade = true
+catalyst_librarian_level = 4
+catalyst_emerald_cost = 24
+catalyst_max_uses = 4
+```
+
+The level is 1..5, price 1..64 and stock 1..64. Price and stock settings affect newly created offers. Existing offers retain saved price, demand, discounts and uses.
+
+Disabling the feature makes existing Librarian catalyst offers unavailable without deleting or reordering them. Normal pickup and shift-click recheck permission even for a menu already open. Reopen the window to refresh client presentation after a setting changes. Re-enabling restores availability; saving while disabled does not erase stock history. Ordinary Librarian trades and other professions are unaffected.
+
+Loot and trade switches are independent. Progression diagnostics recognize either enabled acquisition route. A server can deliberately disable both.
+
+## Datapack authors
+
+Use `{"item":"inscribed:enchantment_catalyst"}` as an ordinary one-item pedestal cost. Add custom loot with the [loot schema](schema/inscribed_loot_v1.md). The item is not hardcoded as a requirement for every high-level enchantment; the recipe remains authoritative.
+
+See [configuration](INSCRIBED_CONFIGURATION.md), [authoring](ADDING_ENCHANTMENTS.md) and the [balance matrix](INSCRIBED_BALANCE_MATRIX.md). Recipe/loot IDs and default failure chances are unchanged in 0.8.0.

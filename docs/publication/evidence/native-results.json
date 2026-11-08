@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "native_purchase": true,
+  "actual_catalog_ritual": true,
+  "disposable_world": true,
+  "optional_runtime_mods": 0,
+  "images": [
+    "altar-overview.png",
+    "altar-infusion.png",
+    "librarian-trade.png",
+    "guide-book.png",
+    "project-icon.png"
+  ]
+}
