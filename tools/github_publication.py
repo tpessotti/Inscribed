@@ -51,7 +51,7 @@ def main():
         visible=request(token,anonymous=True);assert visible and not visible['private']
         result={'repository':visible['html_url'],'visibility':visible['visibility'],'anonymous_read_verified':True,'license':(visible.get('license') or {}).get('spdx_id')}
     else:
-        git_args=['git','-c','safe.directory='+str(REPO)]
+        git_args=['git','-c','safe.directory='+REPO.as_posix()]
         git_env=dict(os.environ,GIT_TERMINAL_PROMPT='0',GCM_INTERACTIVE='Never')
         head=subprocess.check_output([*git_args,'rev-parse','HEAD'],cwd=REPO,text=True,env=git_env).strip()
         remote=subprocess.check_output([*git_args,'ls-remote','origin','refs/heads/main'],cwd=REPO,text=True,env=git_env).split()[0]

@@ -39,7 +39,7 @@
   "example_schema_and_server_parser": "PASS",
   "secret_scan": {
     "current_files": 551,
-    "history_commits": 2,
+    "history_commits": 3,
     "findings": 0
   },
   "platforms_submitted": false,
